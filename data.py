@@ -83,7 +83,8 @@ spells = [
             "circle": 4,
             "uses": "1, and the spellcaster may only have one in-play",
             "material": 'A stuffed or toy animal that must be at least 4" tall',
-            "caveats": "Suspension"
+            "caveats": "Suspension",
+            "description": ""
         },
         {
             "name": "animate lesser undead",
