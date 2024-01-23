@@ -29,4 +29,4 @@ def get_spell(circle):
     return jsonify({'spells': spell[0]})
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=os.getenv("PORT", default=5000, host='0.0.0.0'))
