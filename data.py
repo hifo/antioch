@@ -22,6 +22,22 @@ caveats = [
     {
         "name": "Enchanted Beings",
         "desc": "All spellcasters, undead, and certain creatures are considered to be enchanted beings. Normal fighters are only enchanted beings if under the effect of certain spells, as per the Undead Caveat. Enchanted beings are affected by a certain number of spells, while non-enchanted beings are not. These spells include Circle of Protection and Ward: Enchanted Beings. By definition, any undead creature is an enchanted being."
+    },
+    {
+        "name": "Enchanted Items",
+        "desc": "Some spells create or enchant items, or are enhancements that affect players. These spells create magical effects, but are not potent enough for the items bearer or the target of the enchantment to be considered an Enchanted Being, nor is their magic potent enough for the item to be affected by the spell Circle of Protection once they are cast. If the MC of these spells are disenchanted (through the spells Disenchant or the Strange Brew: Potion of Disenchant option) the spell will end, rendering the MC inert. Magic items are not covered by the Enchanted Items Caveat."
+    },
+    {
+        "name": "Potions",
+        "desc": "A spellcaster who learns Alchemy must have a page in their spellbook listing the sigils that they will use to label potions. Each type of potion they can make, must have a unique, distinguishable sigil. When a potion is made, the spellcaster must put their legible signature, the appropriate sigil, and the date upon the container. Once created, all potions are considered stealable items. A potion can be a represented by a liquid, lotion, elixir, magical food, or anything else, as long as it is safe to be administered in a combat situation. Potions must be directly applied to the recipient. They may not be thrown, dropped, or remotely applied in any manner. The spellcaster need not be present in order to use their potions. \nPotions take a 60 second process called Brewing to be cast. At the beginning of an event, the spellcaster must describe in general terms their process of brewing. An alchemist may brew as many potions as their spells allow during the same 60 seconds. If they wish to create more later, they must begin the process again. If the alchemist is interrupted while brewing, Alchemy points are not lost, but the potions will not be made, and they must start over again in order to make any potions. Although not required, use of additional props or role-playing is encouraged for this process. \nNo potion created by a player can carry over from one event to another; it expires at the end of the event at which it is cast. The PC may choose whether or not to further limit the lifespan of a potion when it is brewed by writing a distinct expiration time among the required spell information on the container. Any potions lacking a specified expiration time last until the end of the event."
+    },
+    {
+        "name": "Precast",
+        "desc": 'Spells a spellcaster has learned with this caveat allow the spellcaster to begin play with that spell active on them or their gear. This represents the character casting the spell before arriving at the event. This uses up one use of the spell. Any material component that must be on the caster for the spell to work must still be present as per normal (such as sashes). A spell “precast” in this way may only be cast on the caster, and may not be “precast” on anyone else.'
+    },
+    {
+        "name": "Regeneration",
+        "desc": "Some spells grant the ability to regenerate. When this ability is triggered (by death, being wounded, etc.), the target’s wound(s) begin to heal. Until the specified amount of time has passed, this grants no benefit. A blow to any kill location on a dead body will cause a regeneration count to reset no matter where the killing blow was inflicted. Impaling stops regeneration; the count resets when the weapon is removed. Regenerating from death heals all healable wounds on the body. If examined by another person, wounds can be seen to be regenerating. Regeneration that brings a character back from death or soul loss takes 120 seconds. If you are diseased, it takes twice as long to regenerate. You may only be under the effects of one basic regeneration and one advanced regeneration at a time. If more than one source is causing you to regenerate, you may choose which of those spells is causing you to regenerate. A regeneration will only work on someone who is soulless if the spell directly states that it can."
     }
 ]
 
@@ -46,6 +62,12 @@ spells = [
             "uses": "Unlimited",
             "verbal": "20 words",
             "active": "Spellcaster must be stationary, must touch the target limb"
+        },
+        {
+            "name": "heartiness",
+            "circle": 2,
+            "uses": "Unlimited",
+            "verbal": "20 words"
         },
         {
             "name": "Cure Disease",
