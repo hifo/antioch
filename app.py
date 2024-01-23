@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, abort
+import os
 import data
 
 app = Flask(__name__)
@@ -33,4 +34,4 @@ def get_spell(circle):
     return jsonify({'spells': spell[0]})
 
 if __name__ == '__main__':
-    app.run(port=5000, host='0.0.0.0')
+    app.run(port=os.getenv("PORT", default=5000), host='0.0.0.0')
