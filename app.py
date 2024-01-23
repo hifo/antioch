@@ -6,6 +6,10 @@ app = Flask(__name__)
 caveats = data.caveats
 spells = data.spells
 
+@app.route('/')
+def get_root():
+    return 'Hello, Mortal! Try <a>http://127.0.0.1:5000/antioch/api/v1.0/spells</a>'
+
 @app.route('/antioch/api/v1.0/spells', methods=['GET'])
 def get_all_spells():
     return jsonify({'spells': spells})
