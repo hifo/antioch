@@ -7,3 +7,4 @@ Current available endpoints:
 /antioch/api/v1.0/spells
 /antioch/api/v1.0/spells_by_circle/
 /antioch/api/v1.0/spell/
+/antioch/api/v1.0/version

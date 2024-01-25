@@ -80,34 +80,64 @@ caveats = [
 spells = [
         # First circle
         {
-            "name": "Cure Disease",
+            "name": "cure disease",
             "circle": 1,
-            "uses": "5"
+            "uses": "5",
+            "verbal": "20 words",
+            "active": None,
+            "material": "disposable",
+            "caveats": None,
+            "description": "This spell will cure the recipient of all diseases that are currently affecting them. It will not provide protection from catching a disease after the spell is cast."
         },
         {
-            "name": "Detect Magic",
+            "name": "detect magic",
             "circle": 1,
-            "uses": "5"
+            "uses": "5",
+            "verbal": "20 words",
+            "active": None,
+            "material": None,
+            "caveats": None,
+            "description": 'This spell allows the spellcaster to take any one item (not a living or dead creature) to the EH or MM to ask whether casting Identify upon the object will yield any information the spellcaster cannot determine by looking at it, such as “It’s a stick,” or “It’s a sword.” It may be cast on a living or dead being to detect a magical item it carries, such as a spell focus or magic weapon. In this case, it will not tell what the item does, only that it is there and which item it is. If cast in this manner multiple times and there are multiple magical items, it will not repeat magic items until there are no new items to reveal.'
         },
         {
-            "name": "Disrupt Light",
+            "name": "disrupt light",
             "circle": 1,
-            "uses": "5"
+            "uses": "5",
+            "verbal": "20 words, which must clearly state the effect of the spell",
+            "active": None,
+            "material": None,
+            "caveats": None,
+            "description": "This spell cancels Light spells cast by other spellcasters. Once the Disrupt Light spellcaster is within sight and hearing of a Light spellcaster, they may loudly call out their verbal. Upon completion of the verbal, all other spellcasters within hearing range must put away their active Light spells. This action is OOC, and those affected must do so even if they hear the spell while dead. Spellcasters so affected cannot recast the Light spell for five minutes, after which time they may reuse the same chemical light sticks."
         },
         {
-            "name": "Fighter's Intuition",
+            "name": "fighter's intuition",
             "circle": 1,
-            "uses": "3"
+            "uses": "3",
+            "verbal": None,
+            "material": "Spell Sash",
+            "active": "place sash on fighter",
+            "caveats": "Enchanted Items, Spell Sash",
+            "description": 'This spell must be cast on a non-spellcaster by placing the sash on the fighter and giving an explanation of how it works. This does not make the fighter an enchanted being. \nThis fighter may now call out “Fighter’s Intuition” once. When the fighter does this, they may or may not learn information about a monster they can see. It is up to the event staff to decide to provide this information or not. The information can be anything: weakness, methods of defeating, or even what the NPC likes to eat. If the event staff does not provide any information about the monster, the use of the spell is not expended and the fighter may attempt to use it again.'
         },
         {
-            "name": "Ghost Blade",
+            "name": "ghost blade",
             "circle": 1,
-            "uses": "2"
+            "uses": "2",
+            "verbal": "20 words",
+            "material": "A white ribbon with the words 'Ghost Blade' on it",
+            "active": None,
+            "caveats": "Enchanted Items",
+            "description": 'This spell enchants a single weapon to no longer affect the casting of the spells Raise Dead or Regeneration or the breaking of Circle of Healing. Upon casting this spell, the spellcaster must tie the MC onto the enchanted weapon.'
         },
         {
             "name": "Heartiness",
             "circle": 1,
-            "uses": "Unlimited, one at a time"
+            "uses": "Unlimited, one at a time",
+            "verbal": None,
+            "active": None,
+            "material": None,
+            "caveats": "Precast",
+            "description": 'Having this spell makes it harder to destroy the spellcaster’s body. The next time the spellcaster’s body is destroyed it will take 200 extra blows to successfully destroy their body. If struck for only 200 blows, instead of the full 400 blows, the spellcaster must inform the individual(s) destroying their body that “The job is not yet done.” A spellcaster can only be under the effect of one Heartiness spell at a time. A use is considered to be over whenever the spellcaster receives at least 200 body destroying blows, but is in effect until either their body is destroyed or they are raised.'
         },
         {
             "name": "Identify",
@@ -176,11 +206,72 @@ spells = [
         },
         # second circle
         {
+            "name": "Aura of Protection",
+            "circle": 2,
+            "uses": "Unlimited, one at a time per learning"
+        },
+        {
+            "name": "Death Watch",
+            "circle": 2,
+            "uses": "Unlimited, one at a time",
+            "active": "Spellcaster must sit without weapons in-hand for 60 seconds before they are killed"
+        },
+        {
+            "name": "Deep Pockets",
+            "circle": 2,
+            "uses": "3"
+        },
+        {
+            "name": "Disenchant",
+            "circle": 2,
+            "uses": "2"
+        },
+        {
+            "name": "Dream",
+            "circle": 2,
+            "uses": "1"
+        },
+        {
+            "name": "Enchant Weapon",
+            "circle": 2,
+            "uses": "5"
+        },
+        {
+            "name": "Group Healing",
+            "circle": 2,
+            "uses": "2"
+        },
+        {
+            "name": "Guidance",
+            "circle": 2,
+            "uses": "2"
+        },
+        {
             "name": "heal limb",
             "circle": 2,
             "uses": "Unlimited",
             "verbal": "20 words",
             "active": "Spellcaster must be stationary, must touch the target limb"
+        },
+        {
+            "name": "Protect the Soul",
+            "circle": 2,
+            "uses": "1"
+        },
+        {
+            "name": "Protection from Missile",
+            "circle": 2,
+            "uses": "Unlimited, one at a time"
+        },
+        {
+            "name": "Repair Item",
+            "circle": 2,
+            "uses": "5"
+        },
+        {
+            "name": "Ward: Undead",
+            "circle": 2,
+            "uses": "Unlimited"
         },
         # third circle
         {
@@ -220,11 +311,19 @@ spells = [
         # fifth circle
         {
             "name": "Animate Undead General",
-            "circle": 5
+            "circle": 5,
+            "uses": "1",
+            "verbal": "40 words, and an explanation",
+            "material": "A tabard, or sash which clearly states “Undead,” “Skeleton,” “Ghost” or the like, or an appropriate mask, a written explanation of what this spell does, and you must supply them with 3 MCs for the Animate Lesser Undead spells they will cast.",
+            "caveats": "Compulsions, Thrall, Undead"
         },
         {
             "name": "Armor-Piercing Weapon",
-            "circle": 5
+            "circle": 5,
+            "uses": "4",
+            "material": "A cloth",
+            "active": "Wipe the entire length of the weapon’s striking surface 5 times",
+            "caveats": "Enchanted Items, OOC Calls, Weapon Calls"
         },
         {
             "name": "Circle of Healing",
