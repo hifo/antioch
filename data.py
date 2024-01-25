@@ -78,21 +78,103 @@ caveats = [
 ]
 
 spells = [
+        # First circle
         {
-            "name": "animal companion",
-            "circle": 4,
-            "uses": "1, and the spellcaster may only have one in-play",
-            "material": 'A stuffed or toy animal that must be at least 4" tall',
-            "caveats": "Suspension",
-            "description": ""
+            "name": "Cure Disease",
+            "circle": 1,
+            "uses": "5"
         },
         {
-            "name": "animate lesser undead",
-            "circle": 3,
-            "uses": "3",
-            "material": 'A tabard, or sash which clearly states “Undead,” “Skeleton,” “Ghost” or the like, or an appropriate mask',
-            "caveats": "Compulsions, Thrall, Undead"       
+            "name": "Detect Magic",
+            "circle": 1,
+            "uses": "5"
         },
+        {
+            "name": "Disrupt Light",
+            "circle": 1,
+            "uses": "5"
+        },
+        {
+            "name": "Fighter's Intuition",
+            "circle": 1,
+            "uses": "3"
+        },
+        {
+            "name": "Ghost Blade",
+            "circle": 1,
+            "uses": "2"
+        },
+        {
+            "name": "Heartiness",
+            "circle": 1,
+            "uses": "Unlimited, one at a time"
+        },
+        {
+            "name": "Identify",
+            "circle": 1,
+            "uses": "3"
+        },
+        {
+            "name": "Immunity to Poison",
+            "circle": 1,
+            "uses": "3"
+        },
+        {
+            "name": "Implement",
+            "circle": 1,
+            "uses": "Special"
+        },
+        {
+            "name": "Light",
+            "circle": 1,
+            "uses": "Unlimited"
+        },
+        {
+            "name": "Mentor",
+            "circle": 1,
+            "uses": "Unlimited"
+        },
+        {
+            "name": "Pas",
+            "circle": 1,
+            "uses": "3"
+        },
+        {
+            "name": "Protect Item",
+            "circle": 1,
+            "uses": "3"
+        },
+        {
+            "name": "Protection from Boulder",
+            "circle": 1,
+            "uses": "2"
+        },
+        {
+            "name": "Repair Armor",
+            "circle": 1,
+            "uses": "5"
+        },
+        {
+            "name": "Speak",
+            "circle": 1,
+            "uses": "2"
+        },
+        {
+            "name": "Speak with Dead",
+            "circle": 1,
+            "uses": "10"
+        },
+        {
+            "name": "Strange Brew",
+            "circle": 1,
+            "uses": "Special, see Alchemy"
+        },
+        {
+            "name": "Zombie Walk",
+            "circle": 1,
+            "uses": "3"
+        },
+        # second circle
         {
             "name": "heal limb",
             "circle": 2,
@@ -100,19 +182,140 @@ spells = [
             "verbal": "20 words",
             "active": "Spellcaster must be stationary, must touch the target limb"
         },
+        # third circle
         {
-            "name": "heartiness",
-            "circle": 2,
-            "uses": "Unlimited",
-            "verbal": "20 words"
+            "name": "animate lesser undead",
+            "circle": 3,
+            "uses": "3",
+            "material": 'A tabard, or sash which clearly states “Undead,” “Skeleton,” “Ghost” or the like, or an appropriate mask',
+            "caveats": "Compulsions, Thrall, Undead",
+            "description": "This spell animates a weak undead thrall that cannot use any armor or spells. It will work on PCs but won’t always work on NPCs; if cast on NPCs, they can refuse. If an NPC refuses a casting of the spell, the casting is not spent."       
+        },
+        # fourth circle
+        {
+            "name": "animal companion",
+            "circle": 4,
+            "uses": "1, and the spellcaster may only have one in-play",
+            "material": 'A stuffed or toy animal that must be at least 4" tall',
+            "caveats": "Suspension",
+            "description": 'The spellcaster has an animal companion represented by a specific stuffed or toy animal. The animal companion cannot be slain or disenchanted, but can be stolen. The stuffed animal must be labeled with the spellcaster’s name and the words “Event-Stealable.” The animal companion grants two separate abilities. The first ability is that the spellcaster may send their animal companion to gather information once per learning of the spell. The information gathered can only be relayed in a short sentence or concept, such as “the way ahead is blocked,” or “there are many foes,” etc. This ability is represented by the spellcaster giving their animal companion to the EH or MM and asking them a question. If the spellcaster asks for information that their animal companion is unable to obtain, they receive no answer. \nThe second ability that the animal companion grants is the ability to cast a single spell up to third circle, except the spell Implement, which cannot be chosen. This spell will function as if it were learned normally, with the same requirements, limitations, number of castings, and components. While the animal companion is out gathering information the spells provided from the secondary ability are suspended. \nAny additional spells provided by the animal companion require the animal companion to cast and maintain, as if the animal companion were a spell focus. Each spell must meet the requirement for verbal, material and active components. Spells with lasting effects (protections, immunities, etc.) can only be cast upon the spellcaster. Any blow that strikes the animal companion must be taken as if the animal companion is not there. \nWhen the spellcaster first learns this spell, they choose their animal companion’s abilities. These abilities are not alterable from event to event. The spellcaster must list in their spellbook every spell their animal companion grants them as if they have learned the spell. \nIf they learn the spell additional times, the animal companion gets stronger. They may alter the abilities of their animal companion upon completion of each learning by giving it an additional spell and question. If the spellcaster unlearns a use of the spell, the animal companion becomes weaker and must be adjusted accordingly.'
         },
         {
-            "name": "Cure Disease",
-            "circle": 1,
-            "uses": "5"
+            "name": "animate undead",
+            "circle": 4,
+            "uses": "2",
+            "verbal": "30 words, and an explanation",
+            "material": 'A tabard, or sash which clearly states “Undead,” “Skeleton,” “Ghost” or the like, or an appropriate mask',
+            "caveats": "Compulsions, Thrall, Undead",
+            "description": "This spell animates an undead thrall that can use any spells or weapons the target normally could use. If Animate Lesser Undead is cast upon the target while the target is still undead, it will reanimate the target as if another Animate Undead spell were cast upon it, but the target’s loyalties transfer to the person who cast Animate Lesser Undead."
         },
+        {
+            "name": "Armored Cloak",
+            "circle": 4
+        },
+        {
+            "name": "Call the Soul",
+            "circle": 4
+        },
+        # fifth circle
+        {
+            "name": "Animate Undead General",
+            "circle": 5
+        },
+        {
+            "name": "Armor-Piercing Weapon",
+            "circle": 5
+        },
+        {
+            "name": "Circle of Healing",
+            "circle": 5
+        },
+        {
+            "name": "Familiar",
+            "circle": 5
+        },
+        {
+            "name": "Reforge",
+            "circle": 5
+        },
+        {
+            "name": "Regenerate the Soul",
+            "circle": 5
+        },
+        {
+            "name": "Regeneration",
+            "circle": 5
+        },
+        {
+            "name": "Resist Magic",
+            "circle": 5
+        },
+        {
+            "name": "Vision",
+            "circle": 5
+        },
+        {
+            "name": "Ward: Enchanted Beings",
+            "circle": 5
+        },
+        # sixth circle
+        {
+            "name": "Assassin's Blade",
+            "circle": 6,
+            "uses": "1"
+        },
+        {
+            "name": "Cry of Life",
+            "circle": 6,
+            "uses": "1"
+        },
+        {
+            "name": "Embrace Death",
+            "circle": 6,
+            "uses": "1"
+        }, 
         {
             "name": "intervention",
+            "circle": 6,
+            "uses": "1"
+        },
+        {
+            "name": "Lightning Bolt",
+            "circle": 6,
+            "uses": "1"
+        },
+        {
+            "name": "Masterwork Hammer",
+            "circle": 6,
+            "uses": "1"
+        },
+        {
+            "name": "Prophecy",
+            "circle": 6,
+            "uses": "1"
+        },
+        {
+            "name": "Resist Death",
+            "circle": 6,
+            "uses": "1"
+        },
+        {
+            "name": "Ritual of Banishment",
+            "circle": 6,
+            "uses": "1"
+        },
+        {
+            "name": "Second Chance",
+            "circle": 6,
+            "uses": "1"
+        },
+        {
+            "name": "Seed of Life",
+            "circle": 6,
+            "uses": "1"
+        },
+        {
+            "name": "Transformation",
             "circle": 6,
             "uses": "1"
         }
