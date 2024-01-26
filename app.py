@@ -11,6 +11,10 @@ spells = data.spells
 def get_root():
     return 'Hello, Mortal! Try <a>http://127.0.0.1:5000/antioch/api/v1.0/spells</a>'
 
+@app.route('/antioch/api/v1.0/version', methods=['GET'])
+def get_version():
+    return jsonify({'version': '2023 Omnibus of the Realms'})
+
 @app.route('/antioch/api/v1.0/spells', methods=['GET'])
 def get_all_spells():
     return jsonify({'spells': spells})
@@ -26,12 +30,12 @@ def get_spells_by_circle(spell_name):
         abort(404)
     return jsonify({'spells': spell[0]})
 
-@app.route('/antioch/api/v1.0/spell_by_circle/<int:circle>', methods=['GET'])
+@app.route('/antioch/api/v1.0/spells_by_circle/<int:circle>', methods=['GET'])
 def get_spell(circle):
     spell = [spell for spell in spells if spell['circle'] == circle]
     if len(spell) == 0:
         abort(404)
-    return jsonify({'spells': spell[0]})
+    return jsonify({'spells': spell})
 
 if __name__ == '__main__':
     app.run(port=os.getenv("PORT", default=5000), host='0.0.0.0')
