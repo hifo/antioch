@@ -13,7 +13,7 @@ def get_root():
 
 @app.route('/antioch/api/v1.0/version', methods=['GET'])
 def get_version():
-    return jsonify({'version': '2023 Omnibus of the Realms'})
+    return {'version': '2023 Omnibus of the Realms'}
 
 @app.route('/antioch/api/v1.0/spells', methods=['GET'])
 def get_all_spells():
