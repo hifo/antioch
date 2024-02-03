@@ -1008,7 +1008,7 @@ spells = [
             "uses": "1 prop, unlimited use",
             "verbal": "Lightning Bolt",
             "active": None,
-            "material": '1 white boff arrow or javelin prop between 2’6" and 3’6" long',
+            "material": '1 white boff arrow or javelin prop between 2\'6" and 3\'6" long',
             "caveats": ["OOC Calls"],
             "description": "This spell allows the spellcaster to throw a stronger bolt of magic than Magic Missile. The MC for the spell must be made following the Weapon Construction rules for Lightning Bolts. \nThe prop is a physical representation of the magic. After it comes to rest, it cannot be affected or moved by anyone other than the spellcaster, but it may still be seen or guarded by anybody. The prop counts as a hand-and-a-half weapon and must be thrown, not shot from a bow. The prop, including its shaft, strikes as a piercing magic blow to anything it makes contact with, until it comes to rest. Once cast, it cannot be cast again until the spellcaster recovers the prop. The prop is not considered a weapon and does not cause Spell Failure, except while the spell is active (i.e. from when the prop is thrown until it comes to rest)."
         },
@@ -1027,7 +1027,7 @@ spells = [
             "circle": 6,
             "uses": "1/special",
             "verbal": "50 words",
-            "material": 'A boff hammer within the spellcaster’s weapon restriction with “Masterwork Hammer” and the spellcaster’s name written on it',
+            "material": 'A boff hammer within the spellcaster\'s weapon restriction with “Masterwork Hammer” and the spellcaster\'s name written on it',
             "active": 'Special',
             "caveats": ["Enchanted Items", "Precast"],
             "description": "This spell creates a Masterwork Hammer which the spellcaster may use to repair non-armor, non-magic items (bows, weapons, shields) in 30 seconds. The spellcaster may also use the hammer to repair all armor on a target player by using the hammer as the focus of the spell for 60 seconds. While using the hammer to make any type of repair, the spellcaster cannot move their feet and is encouraged to actively use the hammer to simulate repairing the target. If the hammer is broken or disenchanted, the spellcaster may repair it by holding the item in both hands for 120 seconds."
@@ -1091,7 +1091,6 @@ spells = [
             "active": None,
             "caveats": ["Enchanted Items", "OOC Calls"],
             "description": "This spell allows a single non-armor item to be protected from the next attack that would normally damage it. For example, a protected sword struck by a boulder would not be destroyed, but the wielder would still suffer normal damage (e.g. death usually). The call for this spell is “Protect Item.” A particular item may only have one casting of Protect Item on it at a time. This spell does not protect against Disenchant."
-            "description": None
         },
         {
             "name": "protect the soul",
