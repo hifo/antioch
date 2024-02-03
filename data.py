@@ -703,6 +703,36 @@ spells = [
             "description": "This spell will suspend any circle or chanting spell. It may only be cast upon a spell that is currently in use. Once the spellcaster completes the disruption, the target spell is suspended for five minutes and the spellcaster of the target spell loses the ability to cast the target spell for five minutes. If the target spell ends before the disruption is completed (the spellcaster stops chanting, the circle is broken, etc.), the spellcaster of that spell still loses the ability to cast that spell for five minutes. This spell only stops the current learning of the target spell. Therefore, if the spellcaster has taken Ward: Enchanted Beings twice, they temporarily lose the ability to cast one, but retain the ability to cast the other."
         },
         {
+            "name": "disease weapon",
+            "circle": 3,
+            "uses": "3",
+            "verbal": "10 words",
+            "material": "Spellcaster’s weapon",
+            "active": None,
+            "caveats": ["Enchanted Items", "OOC Calls", "Weapon Calls"],
+            "description": "This spell allows the spellcaster to temporarily enchant their weapon. After preparing it with the spell, it is considered a diseased weapon and the spellcaster must call “Disease” on the next attack with that weapon."
+        },
+        {
+            "name": "disenchant",
+            "circle": 2,
+            "uses": "2",
+            "verbal": "30 words",
+            "material": None,
+            "active": "Touch the target item",
+            "caveats": None,
+            "description": "This spell will remove enchantments from the target item. If the target item is a potion, panacea, or scroll, it will be rendered inert. If the target is a magic weapon it will no longer function as such until repaired by a Reforge spell. Only magic items specified by the EH or MM are immune to this spell. If the target is a Spell Sash, then the spell represented by the sash is ended. Other spells are not affected unless specified in their description."
+        },
+        {
+            "name": "disrupt",
+            "circle": 4,
+            "uses": "5",
+            "verbal": '30 words, starting with "I disrupt this (spell name)..."',
+            "material": None,
+            "active": "Clearly point at the target",
+            "caveats": ["Suspension"],
+            "description": "This spell will suspend any circle or chanting spell. It may only be cast upon a spell that is currently in use. Once the spellcaster completes the disruption, the target spell is suspended for five minutes and the spellcaster of the target spell loses the ability to cast the target spell for five minutes. If the target spell ends before the disruption is completed (the spellcaster stops chanting, the circle is broken, etc.), the spellcaster of that spell still loses the ability to cast that spell for five minutes. This spell only stops the current learning of the target spell. Therefore, if the spellcaster has taken Ward: Enchanted Beings twice, they temporarily lose the ability to cast one, but retain the ability to cast the other."
+        },
+        {
             "name": "disrupt light",
             "circle": 1,
             "uses": "5",
@@ -1008,7 +1038,7 @@ spells = [
             "uses": "1 prop, unlimited use",
             "verbal": "Lightning Bolt",
             "active": None,
-            "material": '1 white boff arrow or javelin prop between 2’6" and 3’6" long',
+            "material": '1 white boff arrow or javelin prop between 2\'6" and 3\'6" long',
             "caveats": ["OOC Calls"],
             "description": "This spell allows the spellcaster to throw a stronger bolt of magic than Magic Missile. The MC for the spell must be made following the Weapon Construction rules for Lightning Bolts. \nThe prop is a physical representation of the magic. After it comes to rest, it cannot be affected or moved by anyone other than the spellcaster, but it may still be seen or guarded by anybody. The prop counts as a hand-and-a-half weapon and must be thrown, not shot from a bow. The prop, including its shaft, strikes as a piercing magic blow to anything it makes contact with, until it comes to rest. Once cast, it cannot be cast again until the spellcaster recovers the prop. The prop is not considered a weapon and does not cause Spell Failure, except while the spell is active (i.e. from when the prop is thrown until it comes to rest)."
         },
@@ -1027,7 +1057,7 @@ spells = [
             "circle": 6,
             "uses": "1/special",
             "verbal": "50 words",
-            "material": 'A boff hammer within the spellcaster’s weapon restriction with “Masterwork Hammer” and the spellcaster’s name written on it',
+            "material": 'A boff hammer within the spellcaster\'s weapon restriction with “Masterwork Hammer” and the spellcaster\'s name written on it',
             "active": 'Special',
             "caveats": ["Enchanted Items", "Precast"],
             "description": "This spell creates a Masterwork Hammer which the spellcaster may use to repair non-armor, non-magic items (bows, weapons, shields) in 30 seconds. The spellcaster may also use the hammer to repair all armor on a target player by using the hammer as the focus of the spell for 60 seconds. While using the hammer to make any type of repair, the spellcaster cannot move their feet and is encouraged to actively use the hammer to simulate repairing the target. If the hammer is broken or disenchanted, the spellcaster may repair it by holding the item in both hands for 120 seconds."
@@ -1091,7 +1121,6 @@ spells = [
             "active": None,
             "caveats": ["Enchanted Items", "OOC Calls"],
             "description": "This spell allows a single non-armor item to be protected from the next attack that would normally damage it. For example, a protected sword struck by a boulder would not be destroyed, but the wielder would still suffer normal damage (e.g. death usually). The call for this spell is “Protect Item.” A particular item may only have one casting of Protect Item on it at a time. This spell does not protect against Disenchant."
-            "description": None
         },
         {
             "name": "protect the soul",
