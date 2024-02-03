@@ -492,7 +492,7 @@ spells = [
             "active": "Spellcaster must be stationary, must touch the target limb",
             "material": None,
             "caveats": None,
-            "description": None
+            "description": "This spell allows the spellcaster to heal one damaged limb at a time. The spellcaster must recite the VC while touching the recipient\'s injured limb. The spellcaster cannot move their feet while casting this spell, although they may be moving their arms (e.g. parrying, so long as they don\'t step backwards)."
         },
         {
             "name": "heartiness",
@@ -502,7 +502,7 @@ spells = [
             "active": None,
             "material": None,
             "caveats": ["Precast"],
-            "description": 'Having this spell makes it harder to destroy the spellcaster’s body. The next time the spellcaster’s body is destroyed it will take 200 extra blows to successfully destroy their body. If struck for only 200 blows, instead of the full 400 blows, the spellcaster must inform the individual(s) destroying their body that “The job is not yet done.” A spellcaster can only be under the effect of one Heartiness spell at a time. A use is considered to be over whenever the spellcaster receives at least 200 body destroying blows, but is in effect until either their body is destroyed or they are raised.'
+            "description": 'Having this spell makes it harder to destroy the spellcaster\'s body. The next time the spellcaster\'s body is destroyed it will take 200 extra blows to successfully destroy their body. If struck for only 200 blows, instead of the full 400 blows, the spellcaster must inform the individual(s) destroying their body that “The job is not yet done.” A spellcaster can only be under the effect of one Heartiness spell at a time. A use is considered to be over whenever the spellcaster receives at least 200 body destroying blows, but is in effect until either their body is destroyed or they are raised.'
         },
         {
             "name": "identify",

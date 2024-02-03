@@ -24,14 +24,21 @@ def get_all_caveats():
     return jsonify({'caveats': caveats})
 
 @app.route('/antioch/api/v1.0/spell/<string:spell_name>', methods=['GET'])
-def get_spells_by_circle(spell_name):
+def get_spells_by_name(spell_name):
     spell = [spell for spell in spells if spell['name'] == spell_name]
     if len(spell) == 0:
         abort(404)
     return jsonify({'spells': spell[0]})
 
+@app.route('/antioch/api/v1.0/spell_caveats/<string:spell_name>', methods=['GET'])
+def get_caveats_for_spell(spell_name):
+    spell = [spell for spell in spells if spell['name'] == spell_name]
+    if len(spell) == 0:
+        abort(404)
+    return jsonify({'spells': spell[0]["caveats"]})
+
 @app.route('/antioch/api/v1.0/spells_by_circle/<int:circle>', methods=['GET'])
-def get_spell(circle):
+def get_spell_by_circle(circle):
     spell = [spell for spell in spells if spell['circle'] == circle]
     if len(spell) == 0:
         abort(404)
