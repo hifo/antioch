@@ -703,6 +703,36 @@ spells = [
             "description": "This spell will suspend any circle or chanting spell. It may only be cast upon a spell that is currently in use. Once the spellcaster completes the disruption, the target spell is suspended for five minutes and the spellcaster of the target spell loses the ability to cast the target spell for five minutes. If the target spell ends before the disruption is completed (the spellcaster stops chanting, the circle is broken, etc.), the spellcaster of that spell still loses the ability to cast that spell for five minutes. This spell only stops the current learning of the target spell. Therefore, if the spellcaster has taken Ward: Enchanted Beings twice, they temporarily lose the ability to cast one, but retain the ability to cast the other."
         },
         {
+            "name": "disease weapon",
+            "circle": 3,
+            "uses": "3",
+            "verbal": "10 words",
+            "material": "Spellcaster’s weapon",
+            "active": None,
+            "caveats": ["Enchanted Items", "OOC Calls", "Weapon Calls"],
+            "description": "This spell allows the spellcaster to temporarily enchant their weapon. After preparing it with the spell, it is considered a diseased weapon and the spellcaster must call “Disease” on the next attack with that weapon."
+        },
+        {
+            "name": "disenchant",
+            "circle": 2,
+            "uses": "2",
+            "verbal": "30 words",
+            "material": None,
+            "active": "Touch the target item",
+            "caveats": None,
+            "description": "This spell will remove enchantments from the target item. If the target item is a potion, panacea, or scroll, it will be rendered inert. If the target is a magic weapon it will no longer function as such until repaired by a Reforge spell. Only magic items specified by the EH or MM are immune to this spell. If the target is a Spell Sash, then the spell represented by the sash is ended. Other spells are not affected unless specified in their description."
+        },
+        {
+            "name": "disrupt",
+            "circle": 4,
+            "uses": "5",
+            "verbal": '30 words, starting with "I disrupt this (spell name)..."',
+            "material": None,
+            "active": "Clearly point at the target",
+            "caveats": ["Suspension"],
+            "description": "This spell will suspend any circle or chanting spell. It may only be cast upon a spell that is currently in use. Once the spellcaster completes the disruption, the target spell is suspended for five minutes and the spellcaster of the target spell loses the ability to cast the target spell for five minutes. If the target spell ends before the disruption is completed (the spellcaster stops chanting, the circle is broken, etc.), the spellcaster of that spell still loses the ability to cast that spell for five minutes. This spell only stops the current learning of the target spell. Therefore, if the spellcaster has taken Ward: Enchanted Beings twice, they temporarily lose the ability to cast one, but retain the ability to cast the other."
+        },
+        {
             "name": "disrupt light",
             "circle": 1,
             "uses": "5",
