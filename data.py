@@ -358,10 +358,10 @@ spells = [
             "name": "embrace death",
             "circle": 6,
             "uses": "1",
-            "verbal": None,
+            "verbal": "40 words",
             "active": None,
-            "material": None,
-            "caveats": None,
+            "material": "A container at least 4 inches in diameter, labeled with “Event-Stealable”. The container cannot be placed into Deep Pockets.",
+            "caveats": ["Enchanted Items", "Precast", "Regeneration", "Basic Regeneration", "Undead"],
             "description": None
         },
         {
@@ -447,12 +447,12 @@ spells = [
         {
             "name": "fortune tell",
             "circle": 3,
-            "uses": "Unlimited",
+            "uses": "2",
             "verbal": None,
-            "material": None,
+            "material": "Fortune-telling paraphernalia, such as runes or a tarot deck",
             "active": None,
-            "caveats": None,
-            "description": None
+            "caveats": ["Spell Failure"],
+            "description": "This spell allows the spellcaster to ask a question of the EH or MM, which will be answered in a symbolic manner. How much information (if any) and the form in which it is given is at the discretion of the EH or MM. No proper names may be used in either the question or the answer for this spell. For example, while a spellcaster cannot ask “Who killed Sir Schlep?” they can ask, “Who killed this knight?” and the answer can be “Tarot Card: Jack of Wands” but not “Bad Bart.” This spell can only be used to determine information that is plot-related. If the EH or MM does not know the answer because the question asked relates to PC actions, an answer will not be given, but the spell is still used. If the spell is cast and an answer cannot be given because of any of the above limitations, the casting is still used up."
         },
         {
             "name": "ghost blade",
@@ -617,12 +617,12 @@ spells = [
         {
             "name": "precognition",
             "circle": 3,
-            "uses": "Unlimited",
+            "uses": "3",
             "verbal": None,
-            "material": None,
+            "material": "Divining paraphernalia (such as a crystal ball or mirror)",
             "active": None,
             "caveats": None,
-            "description": None
+            "description": "This spell allows the spellcaster to gain non-specified information about the plot from the EH or MM. How much information (if any) is at the discretion of the EH or MM."
         },
         {
             "name": "prophecy",
@@ -642,16 +642,16 @@ spells = [
             "material": "Ribbon tied onto the item protected. Remove the ribbon soon after the spell is expended/used to protect the item",
             "active": None,
             "caveats": ["Enchanted Items", "OOC Calls"],
-            "description": None
+            "description": "This spell allows a single non-armor item to be protected from the next attack that would normally damage it. For example, a protected sword struck by a boulder would not be destroyed, but the wielder would still suffer normal damage (e.g. death usually). The call for this spell is “Protect Item.” A particular item may only have one casting of Protect Item on it at a time. This spell does not protect against Disenchant."
         },
         {
             "name": "protect the soul",
             "circle": 2,
             "uses": "1",
-            "verbal": None,
-            "material": None,
+            "verbal": "30 words and an explanation",
+            "material": "Spell Sash",
             "active": None,
-            "caveats": None,
+            "caveats": ["Enchanted Items", "OOC Calls", "Precast", "Spell Sash"],
             "description": None
         },
         {
@@ -668,41 +668,41 @@ spells = [
             "name": "protection from missile",
             "circle": 2,
             "uses": "Unlimited, one at a time",
-            "verbal": None,
-            "material": None,
-            "active": None,
-            "caveats": None,
-            "description": None
+            "verbal": "10 words",
+            "material": "Spell Sash",
+            "active": "Kneel or lie on back, no weapons in hand",
+            "caveats": [""],
+            "description": "The recipient of this spell is protected from the next hit they take from an arrow, javelin, or Magic Missile spell. It is necessary to call “Protection” when the spell activates. This spell will also protect equipment (such as armor) that would otherwise be affected by the missile. \n When the spell is cast, the recipient of the spell must be kneeling or be lying on their back with no weapons in hand. This spell may be cast on a recipient other than the spellcaster; to do so the spellcaster must have no weapons in hand and touch the recipient while the spell is being cast. More than one casting of this spell may be in effect on a single PC. If the spellcaster casts this spell on another PC, they may not re-cast the spell until the sash is returned to them."
         },
         {
             "name": "purity to disease",
             "circle": 3,
-            "uses": "Unlimited",
-            "verbal": None,
-            "material": None,
-            "active": None,
-            "caveats": None,
-            "description": None
+            "uses": "1, Self-only",
+            "verbal": "10 words",
+            "material": "Spell Sash",
+            "active": "Lie on back, no weapons in hand",
+            "caveats": ["Enchanted Items", "OOC Calls", "Precast", "Spell Sash"],
+            "description": "Upon casting this spell, the spellcaster becomes completely immune to the effects of diseases."
         },
         {
             "name": "purity to poison",
             "circle": 3,
-            "uses": "Unlimited",
-            "verbal": None,
-            "material": None,
-            "active": None,
-            "caveats": None,
-            "description": None
+            "uses": "1, Self-ony",
+            "verbal": "10 words",
+            "material": "Spell Sash",
+            "active": "Lie on back, no weapons in hand",
+            "caveats": ["Enchanted Items", "OOC Calls", "Precast", "Spell Sash"],
+            "description": "Upon casting this spell, the spellcaster becomes completely immune to the effects of poisons."
         },
         {
             "name": "raise dead",
             "circle": 3,
             "uses": "5",
-            "verbal": None,
+            "verbal": "30 words",
             "material": None,
-            "active": None,
-            "caveats": None,
-            "description": None
+            "active": "Spellcaster must be within 2 feet of corpse and there can be no weapons within 10 feet of the spellcaster",
+            "caveats": ["Spell Failure"],
+            "description": "This spell will raise a dead character, healing all of their injured limbs. There can be no weapons within 10 feet of the spellcaster at any point while casting this spell, or the spell will fail to work. For this purpose, a weapon is considered to be anything with a legal striking surface - swords and arrows are weapons, although bows are not. The player of the character being raised must be present to represent the corpse. No proxy can be used for the corpse."
         },
         {
             "name": "reforge",
@@ -788,11 +788,11 @@ spells = [
             "name": "seance",
             "circle": 4,
             "uses": "1",
-            "verbal": None,
-            "material": None,
+            "verbal": "20 words to start",
+            "material": "3-minute hourglass/timer",
             "active": "Speak to EH or MM",
             "caveats": None,
-            "description": None
+            "description": "This spell allows the spellcaster to have an extended discussion with a spirit, either one of another world or of a soulless character. Upon informing the EH or MM of their intent to cast this spell, the spellcaster must start the ritual by flipping the hourglass. If the spirit does not arrive within the first three minutes, then the casting is not used. If the spirit arrives, let the glass run out and flip it again. The spellcaster and spirit may then speak freely until all the sands have fallen. If the spirit stays longer than three minutes, the spellcaster may continue to converse with it. Please note that this spell does not change any behavior on the part of the spirit, and it may choose not to talk. \n Whether a soulless character can answer is entirely up to the discretion of the EH or MM, who must be present for the ritual. This spell in no way grants the knowledge of the circumstances of a soulless character’s death. If they are allowed to be contacted, the soulless PC can still refuse to answer, is not compelled to speak, can lie or tell the truth freely, and can end the séance at any time. A PC contacted with a séance must leave after three minutes."
         },
         {
             "name": "second chance",
@@ -802,7 +802,7 @@ spells = [
             "material": None,
             "active": "Speak to EH or MM",
             "caveats": None,
-            "description": None
+            "description": "This spell allows the spellcaster to recover once, even from the most grievous of wounds and situations. \n After the spell is cast, the spellcaster may activate the spell, which removes them from play. They must then go find the EH or MM. All stealable items in possession of the spellcaster must be left behind. This spell may be activated even if the spellcaster is dead or soulless. \n The EH or MM will then place them somewhere on site (location determined by the EH or MM). Upon being placed, the spellcaster is alive and unwounded."
         },
         {
             "name": "seed of life",
@@ -819,30 +819,30 @@ spells = [
             "circle": 3,
             "uses": "2",
             "verbal": None,
-            "material": None,
-            "active": None,
-            "caveats": None,
-            "description": None
+            "material": "Makeup and/or mask and any disguise garb",
+            "active": "Change into disguise",
+            "caveats": ["Enchanted Items"],
+            "description": "This allows the spellcaster to shapeshift into a humanoid monster of about their height and size. This transformation takes as long to complete as it takes the player to change into the appropriate disguise outfit. The type and features of the monster are up to the player. Once the shapeshifting is complete, the player will respond to the spell Identify as the new type of monster. This spell will mimic a general monster type, and cannot accurately impersonate a named or unique monster, or appear to be another PC. You are free however, to attempt to convince your victims that you are more important than you actually are. \n The shapeshifted form confers no combat benefit or other NPC power, though they can appear to wear armor or carry larger weapons to complete the disguise. You may in no way signal to NPCs that you are NPCing. The shapeshifted form ends if you are killed or if any part of your disguise is disenchanted. \n In addition, at the door of the event, the player is allowed to ask the EH or MM to borrow an appropriate mask for the event in order to complete the illusion. There is no guarantee that they will be able to provide the materials, so you may wish to bring your own."
         },
         {
             "name": "skew divination",
             "circle": 3,
-            "uses": "Unlimited",
-            "verbal": None,
-            "material": None,
-            "active": None,
+            "uses": "2",
+            "verbal": "30 words",
+            "material": "Scroll with a name of an item, person, group, place, or situation",
+            "active": "Give scroll to EH or MM",
             "caveats": None,
-            "description": None
+            "description": "This spell will alter the next Guidance, Fortune Tell, Precognition, Find the Path, Foretell, Séance, Vision, or Prophecy spell cast about the target at that event, giving them misinformation. How much the spell is altered is up to the EH or MM. To cast this spell, the spellcaster must write the name of the target (item, person, group, place, or situation) on a scroll, sign the scroll, and give the scroll to the EH or MM."
         },
         {
             "name": "soul bane",
             "circle": 3,
-            "uses": "Unlimited",
+            "uses": "1",
             "verbal": None,
             "material": None,
-            "active": None,
-            "caveats": None,
-            "description": None
+            "active": ' Destroy a dead body. Following the final body destroying blow the spellcaster says “Soul Bane.”',
+            "caveats": ["OOC Calls"],
+            "description": "This spell alters the next Call the Soul cast on the target by reversing which object is successful and unsuccessful. The spellcaster must inform the EH or MM whose body they destroyed and cast Soul Bane on as soon possible. The effect triggers the next time the target’s soul is called. The spell ends after the first Call the Soul, whether it was successful or not. Only one Soul Bane can be active on a person at a time."
         },
         {
             "name": "speak",
@@ -888,11 +888,11 @@ spells = [
             "name": "transmute self",
             "circle": 4,
             "uses": "3",
-            "verbal": None,
+            "verbal": "10 word chant, repeated. The verbal must be chanted loudly and clearly",
             "material": None,
             "active": None,
-            "caveats": None,
-            "description": None
+            "caveats": ["Chanting", "OOC Calls", "Suspension"],
+            "description": "This spell provides an immense amount of protection to the spellcaster, but also requires an immense amount of concentration. This spell only takes effect once the spellcaster has completed the VC once. While transmuted, the spellcaster is completely immune to all forms of damage, magical or otherwise, regardless of whether the material into which the spellcaster transmutes is vulnerable to any form of damage. It does not make the spellcaster invisible or undetectable. The spellcaster must choose what they are capable of attuning to when learning the spell. Choices are: trees, stone, or earth. To transmute, the spellcaster must embrace or lie down on the object they are capable of attuning to (so those who can attune to trees hug a tree, to stone lie on or hug a rock, or to earth lie on the ground). While transmuted, the spellcaster is “stuck” and cannot be dragged. The object the spellcaster attunes with MUST be at least as massive as the spellcaster. The spellcaster must keep their eyes closed and remain perfectly still, and they must be constantly chanting their verbal while transmuted. The spellcaster must chant loudly and clearly. If anything interrupts the spellcaster’s concentration, the spell is broken. OOC explanations (such as combat calls) do not interrupt this spell. For example, if a PC chanting a Transmute Self spell is hit by a weapon, they may call “No effect” without interrupting the spell. As soon as the spellcaster moves, opens their eyes, or stops chanting, the spell ends. The spellcaster may not transmute for at least one slow 200 second count after regaining their proper form. The spellcaster must use their common sense when deciding where to transmute. Pick a safe location, not the middle of a trail or a high combat area."
         },
         {
             "name": "vision",
@@ -918,11 +918,11 @@ spells = [
             "name": "ward: undead",
             "circle": 2,
             "uses": "Unlimited",
-            "verbal": None,
-            "material": None,
+            "verbal": "10 words, repeated continuously, stating purpose of spell",
+            "material": "Focus",
             "active": None,
-            "caveats": None,
-            "description": None
+            "caveats": ["Chanting", "Suspension", "Wards"],
+            "description": "This spell prevents Undead from attacking the spellcaster while it is active."
         },
         {
             "name": "zombie walk",
