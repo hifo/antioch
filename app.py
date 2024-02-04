@@ -37,7 +37,7 @@ def get_spell_by_circle(circle):
 def get_all_caveats():
     return jsonify({'caveats': caveats})
 
-@app.route('/antioch/api/v1.0/caveats', methods=['GET'])
+@app.route('/antioch/api/v1.0/caveat_by_name', methods=['GET'])
 def get_caveat_by_name(caveat_name):
     spell = [caveat for caveat in caveats if caveat['name'] == caveat_name]
     if len(spell) == 0:
