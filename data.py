@@ -358,10 +358,10 @@ spells = [
             "name": "embrace death",
             "circle": 6,
             "uses": "1",
-            "verbal": None,
+            "verbal": "40 words",
             "active": None,
-            "material": None,
-            "caveats": None,
+            "material": 'A container at least 4 inches in diameter, labeled with “Event-Stealable”. The container cannot be placed into Deep Pockets.',
+            "caveats": ["Enchanted Items", "Precast", "Regeneration", "Basic Regeneration", "Undead"],
             "description": None
         },
         {
