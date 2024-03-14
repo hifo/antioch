@@ -1,5 +1,5 @@
 """
-Tests for Antioch
+Unit tests for Antioch
 """
 
 import app
