@@ -39,9 +39,11 @@ def get_spells_by_name(spell_name):
     Gets a spell by name
     spell_name - string
     """
+    if spell_name == '':
+        abort(404, 'No name provided')
     spell = [spell for spell in spells if spell['name'] == spell_name]
     if len(spell) == 0:
-        abort(404)
+        abort(404, 'Invalid name')
     return jsonify({'spells': spell[0]})
 
 @app.route('/antioch/api/v1.0/spells_by_circle/<int:circle>', methods=['GET'])
@@ -84,3 +86,4 @@ def get_caveats_for_spell(spell_name):
 
 if __name__ == '__main__':
     app.run(port=os.getenv("PORT"), host='0.0.0.0')
+    
