@@ -39,7 +39,7 @@ def test_spells_by_name():
     assert spell['material'] is None
     assert spell['active'] is None
     assert spell['verbal'] == 'All in the sound of my voice, rise and fight'
-    assert spell['description'] == """This spell instantly raises all dead characters 
+    assert spell['description'] == """This spell instantly raises all dead characters
             whose players hear the verbal. The spell affects all who hear it, 
             including NPCs and characters fighting against the spellcaster."""
 
