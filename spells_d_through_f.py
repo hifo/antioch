@@ -238,7 +238,7 @@ spells = [
             Also unlike those other spells, anyone may wield the 
             enchanted weapon to make the calls.""",
             "link": "https://www.realmsnet.net/rules/omnibus#enchant-weapon"
-        }, 
+        },
         {
             "name": "enfeeble being",
             "circle": 3,
