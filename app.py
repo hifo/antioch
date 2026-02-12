@@ -26,7 +26,7 @@ def get_root():
 @app.route('/antioch/api/v1.0/version', methods=['GET'])
 def get_version():
     """Gets the current version of the Realms Omnibus supported"""
-    return {'version': '2023 Omnibus of the Realms'}
+    return {'version': '2025 Omnibus of the Realms'}
 
 @app.route('/antioch/api/v1.0/spells', methods=['GET'])
 def get_all_spells():
