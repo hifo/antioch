@@ -22,7 +22,7 @@ def test_get_version():
     res = requests.get(BASE_URL + 'antioch/api/v1.0/version', timeout=10000)
     assert res.status_code == 200
     data = res.json()
-    assert data['version'] == '2023 Omnibus of the Realms'
+    assert data['version'] == '2025 Omnibus of the Realms'
 
 def test_spells_by_name():
     """
@@ -39,9 +39,11 @@ def test_spells_by_name():
     assert spell['material'] is None
     assert spell['active'] is None
     assert spell['verbal'] == 'All in the sound of my voice, rise and fight'
-    cry_desc = """This spell instantly raises all dead characters 
-            whose players hear the verbal. The spell affects all who hear it, 
-            including NPCs and characters fighting against the spellcaster."""
+    cry_desc = (
+                "This spell instantly raises all dead characters whose players hear the "
+                "verbal. The spell affects all who hear it, including NPCs and "
+                "characters fighting against the spellcaster."
+            )
     assert spell['description'] == cry_desc
 
 def test_get_spell_no_name_provided():
