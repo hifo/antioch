@@ -22,7 +22,7 @@ def test_get_version():
     res = requests.get(BASE_URL + 'antioch/api/v1.0/version', timeout=10000)
     assert res.status_code == 200
     data = res.json()
-    assert data['version'] == '2025 Omnibus of the Realms'
+    assert data['version'] == '2026 Omnibus of the Realms'
 
 def test_spells_by_name():
     """
