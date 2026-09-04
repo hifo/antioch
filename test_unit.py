@@ -16,5 +16,5 @@ def test_get_version():
     Tests get_version
     """
     result = app.get_version()
-    assert result['version'] == '2025 Omnibus of the Realms'
+    assert result['version'] == '2026 Omnibus of the Realms'
     

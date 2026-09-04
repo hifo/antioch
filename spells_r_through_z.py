@@ -1,6 +1,6 @@
 """
 Realms spell list R-Z
-Version: 2023
+Version: 2026
 """
 
 

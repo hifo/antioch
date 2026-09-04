@@ -1,6 +1,6 @@
 """
 Realms spell list D-F
-Version: 2023
+Version: 2026
 """
 
 spells = [

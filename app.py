@@ -26,7 +26,7 @@ def get_root():
 @app.route('/antioch/api/v1.0/version', methods=['GET'])
 def get_version():
     """Gets the current version of the Realms Omnibus supported"""
-    return {'version': '2025 Omnibus of the Realms'}
+    return {'version': '2026 Omnibus of the Realms'}
 
 @app.route('/antioch/api/v1.0/spells', methods=['GET'])
 def get_all_spells():
@@ -49,13 +49,13 @@ def get_spells_by_name(spell_name):
 @app.route('/antioch/api/v1.0/spells_by_circle/<int:circle>', methods=['GET'])
 def get_spell_by_circle(circle):
     """
-    Returns all spells by circle
+    Returns all spell names by circle
     circle - integer
     """
     spell = [spell for spell in spells if spell['circle'] == circle]
     if len(spell) == 0:
         abort(404)
-    return jsonify({'spells': spell})
+    return jsonify({'spells': [s['name'] for s in spell]})
 
 @app.route('/antioch/api/v1.0/caveats', methods=['GET'])
 def get_all_caveats():
