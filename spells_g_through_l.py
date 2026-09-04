@@ -5,6 +5,23 @@ Version: 2026
 
 spells = [
         {
+            "name": "gentle repose",
+            "circle": 1,
+            "uses": 5,
+            "verbal": "10 words, and an explanation",
+            "material": None,
+            "active": "Touch the target dead body",
+            "caveats": None,
+            "description": (
+                "This spell once cast will protect the target dead body temporarily " 
+                "as per the spell Protect the Soul."
+                "Once the target is returned to life by any means this spell effect ends. "
+                "This spell may only be removed from the dead body"
+                 " via the Disenchant spell otherwise."
+            ),
+            "link": "https://www.realmsnet.net/rules/omnibus#gentle-repose"
+        },
+        {
             "name": "ghost blade",
             "circle": 1,
             "uses": "2",

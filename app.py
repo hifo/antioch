@@ -9,11 +9,11 @@ import spells_d_through_f
 import spells_g_through_l
 import spells_m_through_p
 import spells_r_through_z
-import caveats
+import caveats as caveats_module
 
 app = Flask(__name__)
 
-caveats = caveats.caveats
+caveats = caveats_module.caveats
 # concatonates all spells from various files
 spells = spells_a_through_c.spells + spells_d_through_f.spells + \
       spells_g_through_l.spells + spells_m_through_p.spells + spells_r_through_z.spells
@@ -85,5 +85,6 @@ def get_caveats_for_spell(spell_name):
     return jsonify({'spells': spell[0]["caveats"]})
 
 if __name__ == '__main__':
-    app.run(port=os.getenv("PORT"), host='0.0.0.0')
+    port = int(os.getenv("PORT", "5000"))
+    app.run(port=port, host='0.0.0.0')
     
