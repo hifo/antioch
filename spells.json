@@ -1,0 +1,1162 @@
+{
+  "spells": [
+    {
+      "name": "Animal Companion",
+      "circle": "4th Circle",
+      "slug": "animal-companion",
+      "metadata": {
+        "material": "A specific stuffed or toy animal that must be at least 4\" tall, labeled with the spellcaster's name and the words \"Event-Stealable\"",
+        "active": null,
+        "verbal": null,
+        "uses": "1, and the spellcaster may only have one in-play",
+        "caveats": "Suspension"
+      },
+      "description": "The spellcaster has an animal companion represented by a specific stuffed or toy animal. The animal companion cannot be slain or disenchanted, but can be stolen. The stuffed animal must be labeled with the spellcaster's name and the words \"Event-Stealable.\" The animal companion grants two separate abilities. The first ability is that the spellcaster may send their animal companion to gather information once per learning of the spell. The information gathered can only be relayed in a short sentence or concept, such as \"the way ahead is blocked,\" or \"there are many foes,\" etc. This ability is represented by the spellcaster giving their animal companion to the EH or MM and asking them a question. If the spellcaster asks for information that their animal companion is unable to obtain, they receive no answer. The second ability that the animal companion grants is the ability to cast a single spell up to third circle, except the spell Implement, which cannot be chosen. This spell will function as if it were learned normally, with the same requirements, limitations, number of castings, and components. While the animal companion is out gathering information the spells provided from the secondary ability are suspended. Any additional spells provided by the animal companion require the animal companion to cast and maintain, as if the animal companion were a spell focus. Each spell must meet the requirement for verbal, material and active components. Spells with lasting effects (protections, immunities, etc.) can only be cast upon the spellcaster. Any blow that strikes the animal companion must be taken as if the animal companion is not there. When the spellcaster first learns this spell, they choose their animal companion's abilities. These abilities are not alterable from event to event. The spellcaster must list in their spellbook every spell their animal companion grants them as if they have learned the spell. If they learn the spell additional times, the animal companion gets stronger. They may alter the abilities of their animal companion upon completion of each learning by giving it an additional spell and question. If the spellcaster unlearns a use of the spell, the animal companion becomes weaker and must be adjusted accordingly. A spellcaster may use the same prop for both an Animal Companion and a Familiar but all spells from both sources are considered suspended while the prop is not on their person."
+    },
+    {
+      "name": "Animate Lesser Undead",
+      "circle": "3rd Circle",
+      "slug": "animate-lesser-undead",
+      "metadata": {
+        "material": "A tabard, or sash which clearly states \"Undead,\" \"Skeleton,\" \"Ghost\" or the like, or an appropriate mask",
+        "active": null,
+        "verbal": "30 words, and an explanation",
+        "uses": "3",
+        "caveats": "Compulsions, Thrall, Undead"
+      },
+      "description": "This spell animates a weak undead thrall that cannot use any armor or spells. It will work on PCs but won't always work on NPCs; if cast on NPCs, they can refuse. If an NPC refuses a casting of the spell, the casting is not spent."
+    },
+    {
+      "name": "Animate Greater Undead",
+      "circle": "4th Circle",
+      "slug": "animate-greater-undead",
+      "metadata": {
+        "material": "A tabard, or sash which clearly states \"Undead,\" \"Skeleton,\" \"Ghost\" or the like, or an appropriate mask",
+        "active": null,
+        "verbal": "30 words, and an explanation",
+        "uses": "2",
+        "caveats": "Compulsions, Thrall, Undead"
+      },
+      "description": "This spell animates an undead thrall that can use any spells or weapons the target normally could use. If Animate Lesser Undead is cast upon the target while the target is still undead, it will reanimate the target as if another Animate Greater Undead spell were cast upon it, but the target's loyalties transfer to the person who cast Animate Lesser Undead."
+    },
+    {
+      "name": "Animate Undead General",
+      "circle": "5th Circle",
+      "slug": "animate-undead-general",
+      "metadata": {
+        "material": "A tabard, or sash which clearly states \"Undead,\" \"Skeleton,\" \"Ghost\" or the like, or an appropriate mask, a written explanation of what this spell does, and you must supply them with 3 MCs for the Animate Lesser Undead spells they will cast.",
+        "active": null,
+        "verbal": "40 words, and an explanation",
+        "uses": "1",
+        "caveats": "Compulsions, Thrall, Undead"
+      },
+      "description": "This spell animates a greater thrall that can use any spells or weapons that the target normally could use. If Animate Lesser Undead or Animate Greater Undead is cast upon the target while the target is still undead, it will reanimate the target as if another Animate Undead General spell were cast upon it, but the target's loyalties transfer to the person who cast the new spell (no additional MC is needed). The Undead General will die to any magical attacks that damage it, regardless of location. You may have at most one undead general at a time. In addition, the Undead General gains the ability to cast the spell Animate Lesser Undead with unlimited uses. An Undead General can only have 3 Lesser Undead at a time and must retrieve their MC before casting Animate Lesser Undead again. If the Undead General casts Animate Lesser Undead on anyone who is not under the effects of Embrace Death, they must use an MC."
+    },
+    {
+      "name": "Armor-Piercing Weapon",
+      "circle": "5th Circle",
+      "slug": "armor-piercing-weapon",
+      "metadata": {
+        "material": "A cloth",
+        "active": "Wipe the entire length of the weapon's striking surface 5 times",
+        "verbal": null,
+        "uses": "6",
+        "caveats": "Enchanted Items, OOC Calls, Weapon Calls"
+      },
+      "description": "This spell gives the spellcaster the ability to enhance their weapon to pass through and destroy armor. After preparing the spell the spellcaster must call \"Piercing\" on the next attack with that weapon."
+    },
+    {
+      "name": "Armored Cloak",
+      "circle": "4th Circle",
+      "slug": "armored-cloak",
+      "metadata": {
+        "material": "Specific garb with obvious runes or mystic symbols",
+        "active": "Kneel with no weapons or shields in hands while wearing the garb, or lie on back while wearing the garb",
+        "verbal": "30 words",
+        "uses": "Unlimited, one at a time",
+        "caveats": "OOC Calls, Precast"
+      },
+      "description": "This spell enchants some of your garb to provide one call of armor against an attack. It provides one point of armor against the next blow that lands upon one of the garments or any location at least 75% covered by one of the garments. This Armored Cloak cannot be worn in combination with any other form of armor, ever. It can be worn while protected by a Protection from Missile or Resist Magic spell, in which case the wearer can choose to call either protection, saving the other for later. It can only be worn by the spellcaster, and the spell cannot be cast on any of the garments more than once at a time. Specific garb must be chosen for the MC at the beginning of the event, and it cannot be changed during the course of the event without the EH's or MM's permission. A spellcaster can only cast one Armored Cloak at a time."
+    },
+    {
+      "name": "Assassin's Blade",
+      "circle": "6th Circle",
+      "slug": "assassins-blade",
+      "metadata": {
+        "material": "A cloth, and a specific weapon within the spellcaster's weapon restriction, labeled with \"Assassin's Blade\" and the spellcaster's name",
+        "active": "Special",
+        "verbal": "50 words",
+        "uses": "1",
+        "caveats": "Enchanted Items, OOC Calls, Precast, Weapon Calls"
+      },
+      "description": "This spell creates an Assassin's Blade which allows the spellcaster to prepare their MC with a single swing of one of the weapon calls provided by the spells Armor-Piercing Weapon, Enchant Weapon, Transmute Weapon, or Create Poison as an unlimited effect. This takes effect on the spellcaster's next swing with the weapon. This does not expend a casting of the prepared spell, although a use of the spell must still remain in order to prepare it. Only one spell may be prepared at a time onto the Assassin's Blade. To prepare the weapon with one of the listed spells, the spellcaster must wipe the entire striking surface of the weapon with the cloth 5 times. Only the spellcaster may utilize the special call with the weapon. The weapon may not be used in conjunction with another weapon or shield by the spellcaster. If the MC is IC broken, it will retain its magical properties if repaired. Additionally, if the MC is IC broken or disenchanted, the spellcaster may repair it by holding the item in both hands for 120 seconds. When the spellcaster first learns this spell, they choose one of the spells Enchant Weapon, Transmute Weapon, or Create Poison, to be an ability inherent to their Assassin's Blade, and they may prepare its effect on the weapon as if they know the spell and have uses remaining. However, this does not grant them the spell to use on other weapons. This ability is not alterable from event to event. The spellcaster must list which spell is inherent to the blade in their spellbook as if they have learned the spell. In addition, any body destroying blow dealt by an Assassin's Blade counts as two blows dealt."
+    },
+    {
+      "name": "Aura of Protection",
+      "circle": "2nd Circle",
+      "slug": "aura-of-protection",
+      "metadata": {
+        "material": "Spell Sash",
+        "active": "Kneel with no weapons or shields in hands, or lie on back",
+        "verbal": "20 words",
+        "uses": "Unlimited, one at a time per learning",
+        "caveats": "Enchanted Items, OOC Calls, Spell Sash, Precast"
+      },
+      "description": "The recipient of this spell lessens the effect of the next hit they take from a call of \"Magic,\" \"Silver,\" \"Disease,\" \"Piercing,\" \"Lightning Bolt,\" or \"Poison.\" Rather than taking the effect they were hit with, the recipient of the spell takes the blow as a normal sword blow instead. It is necessary to call \"Protection\" when the spell activates. When the spell is cast, the recipient of the spell must be kneeling with no weapons in hand or be lying on their back. This spell may be cast on a recipient other than the spellcaster; to do so the spellcaster must have no weapons in hand and touch the recipient while the spell is being cast. More than one casting of this spell may be in effect on a single PC. If the spellcaster casts this spell on another PC, they may not re-cast the spell until the sash is returned to them."
+    },
+    {
+      "name": "Beckon Corpse",
+      "circle": "3rd Circle",
+      "slug": "beckon-corpse",
+      "metadata": {
+        "material": null,
+        "active": "Spellcaster must be stationary until finished",
+        "verbal": "20 words, repeated continuously, stating purpose of spell",
+        "uses": "5",
+        "caveats": "Chanting, Suspension, Undead, Walking Dead"
+      },
+      "description": "This spell allows the spellcaster to summon a corpse to get up and move to them as the Walking Dead. The spellcaster must say their complete verbal once before attempting to get the attention of the player of the corpse they wish to beckon. If the caster fails to get the attention of the player of the corpse they wish to beckon, the casting is not spent. As long as the chanting continues, the corpse will get up and walk in the most direct (but OOC safe) path to the spellcaster as if under the effects of the spell Zombie Walk. If the corpse is interrupted, it will fall to the ground, but the spellcaster may finish the current round of the verbal, regain the corpse's attention, and resume chanting the verbal to renew the effect on the corpse. The spell will end if the corpse reaches the spellcaster, the spellcaster stops chanting to do something else, or they move from where they are standing (although they may be moving their arms)."
+    },
+    {
+      "name": "Call the Soul",
+      "circle": "4th Circle",
+      "slug": "call-the-soul",
+      "metadata": {
+        "material": "Five objects of equal size and shape, four of one color or design and one of a second color or design, and an opaque pouch or other way to keep them hidden",
+        "active": "A quest may be required",
+        "verbal": "30 words",
+        "uses": "2"
+      },
+      "description": "Allows the spellcaster to possibly find and reattach the soul of a soulless character. When cast, the spellcaster presents the pouch of objects to the soulless character, who must then reach in and take one without looking. If the object is one of the four, the soul is reattached. If the object is the second color or design, nothing happens. This spell must be cast in the presence of the EH or MM, who may require an additional quest be completed."
+    },
+    {
+      "name": "Cantrip",
+      "circle": "3rd Circle",
+      "slug": "cantrip",
+      "metadata": {
+        "material": null,
+        "active": null,
+        "verbal": null,
+        "uses": "3"
+      },
+      "description": "Allows the spellcaster to gain one casting of any First Circle spell, chosen at the time of casting. The spell gained must be cast following the rules for that spell, including VC, MC, and ACs. This spell cannot be used to cast Implement or Strange Brew."
+    },
+    {
+      "name": "Circle of Healing",
+      "circle": "5th Circle",
+      "slug": "circle-of-healing",
+      "metadata": {
+        "material": "10-foot rope",
+        "active": "Touch the rope",
+        "verbal": "25 words",
+        "uses": "2",
+        "caveats": "Circles, Suspension"
+      },
+      "description": "This spell allows the spellcaster to create a Circle of Healing. The spellcaster may name the circle with Cure Disease, Heal Limb, or Raise Dead, chosen at the time of casting. The spellcaster does not need to have the named spell in their spellbook. While the spellcaster is standing in the Circle of Healing, they may cast the named spell as many times as desired without consuming a use of that spell. All of the requirements of the named spell must be met for each casting, including the AC and VC. No one but the spellcaster may use the Circle of Healing in this manner. This spell is broken if a weapon crosses the plane of the circle. For this purpose, a weapon is considered to be anything with a legal striking surface - therefore, swords and arrows are weapons, although bows and shields are not. You may only have one casting active from a single learning of this spell at a time."
+    },
+    {
+      "name": "Circle of Protection",
+      "circle": "4th Circle",
+      "slug": "circle-of-protection",
+      "metadata": {
+        "material": "15-foot white rope, or less",
+        "active": null,
+        "verbal": "10 words",
+        "uses": "Unlimited, one at a time",
+        "caveats": "Circles, Suspension, Enchanted Beings"
+      },
+      "description": "This spell creates a barrier that no enchanted being can physically pass, affect, or attack, with the exception of the spellcaster that cast it. In addition, no magic of any kind can pass through the barrier in either direction, again with the exception of the spellcaster that cast the spell. The spellcaster that cast the circle may pass over the barrier freely and may cast spells through the barrier at will. Magic items carried by the spellcaster cannot pass through the Circle of Protection. A single spellcaster with multiple castings, or several different spellcasters, can combine Circle of Protection spells to make a larger one. If multiple spellcasters join their circles together, the result is a larger circle, but no enchanted being (even the spellcasters that created it) may pass in or out of the circle, and no magic of any kind (even from the spellcasters that created it) can pass through the barrier in either direction. Magic can be cast inside the circle as normal, but all the effects remain within the circle. The spellcaster may decide to break their own circle whenever they choose by uncrossing the rope. The spellcaster can do this even if the circle was cast with other spellcasters."
+    },
+    {
+      "name": "Combat Raise Dead",
+      "circle": "4th Circle",
+      "slug": "combat-raise-dead",
+      "metadata": {
+        "material": null,
+        "active": "Must touch recipient of spell",
+        "verbal": "3 words",
+        "uses": "3"
+      },
+      "description": "This spell will raise a dead character, healing all of their injured limbs. The VC must clearly state the effects of the spell. For example, \"Rise and fight\" is a VC that would make it clear that the individual is being raised."
+    },
+    {
+      "name": "Commune with Spirit",
+      "circle": "3rd Circle",
+      "slug": "commune-with-spirit",
+      "metadata": {
+        "material": null,
+        "active": "Ritual - it is required that the spellcaster not actively seek out the EH or MM.",
+        "verbal": null,
+        "uses": "1"
+      },
+      "description": "The ritual must, in effect, be spectacular enough that the EH or MM comes of their own volition Allows the spellcaster to gain a boon of insight/wisdom from the EH or MM. This spell allows the spellcaster to ask a spirit something relating to the plot of the event. How detailed the response or how lengthy the conversation is with the spirit, is determined completely by the spirit. It should be noted that the spirit does not have to answer the call of the spellcaster, and that sometimes instead of helping solve a problem, may give the spellcaster an awareness of more problems that need solving."
+    },
+    {
+      "name": "Create Poison",
+      "circle": "4th Circle",
+      "slug": "create-poison",
+      "metadata": {
+        "material": "Disposable edible or drinkable component",
+        "active": null,
+        "verbal": null,
+        "uses": "6",
+        "caveats": "Enchanted Items, Compulsions, OOC Calls, Weapon Calls",
+        "there are only three types of poison created by this spell": "Death, Sleep, and Truth."
+      },
+      "description": "This spell creates one dose of a specific kind of poison per use. Death kills instantly. Sleep causes the victim to fall into a deep sleep for 10 minutes. They cannot be woken before this time passes. Truth causes the victim to be unable to speak anything except the truth for 10 minutes, but does not force them to talk. The type of poison must be chosen when it is cast, and each individual effect listed in the spellcaster's spellbook. The poison must be ingested and cannot affect those who don't eat or drink it. This effect must be written legibly on a scroll. This scroll is to be given to the victim by the spellcaster, EH, or MM immediately after the MC has been consumed. Only one dose may be made per use, and only the first person to ingest part of the MC is affected by a spell. The spell is always rendered inert by Immunity to Poison. Alternatively the spellcaster may expend a use of the spell to coat a weapon with deadly poison. The next time the spellcaster attacks with that weapon they must call \"Poison.\" To use this spell this way, the MC becomes a cloth, and the AC becomes wipe the length of the weapon's striking surface 5 times with the MC. Only sleep and truth can be resisted by Protect the Soul as per the compulsions caveat."
+    },
+    {
+      "name": "Cry of Life",
+      "circle": "6th Circle",
+      "slug": "cry-of-life",
+      "metadata": {
+        "material": null,
+        "active": null,
+        "verbal": "\"All in the sound of my voice, rise and fight.\"",
+        "uses": "2"
+      },
+      "description": "This spell instantly raises all dead characters whose players hear the verbal. The spell affects all who hear it, including NPCs and characters fighting against the spellcaster."
+    },
+    {
+      "name": "Cure Disease",
+      "circle": "1st Circle",
+      "slug": "cure-disease",
+      "metadata": {
+        "material": null,
+        "active": "Touch the recipient",
+        "verbal": "20 words",
+        "uses": "5"
+      },
+      "description": "This spell will cure the recipient of all diseases that are currently affecting them. It will not provide protection from catching a disease after the spell is cast."
+    },
+    {
+      "name": "Death Watch",
+      "circle": "2nd Circle",
+      "slug": "death-watch",
+      "metadata": {
+        "material": null,
+        "active": "Spellcaster must sit without weapons in-hand for 60 seconds before they are killed",
+        "verbal": null,
+        "uses": "Unlimited, one at a time",
+        "caveats": "Precast"
+      },
+      "description": "Enables the spellcaster to see and hear while they are dead. This does not grant any additional ability to speak or move while dead, beyond what is allowed by the section on Character Death. If the spellcaster is rendered soulless, all memories acquired through the current casting of Death Watch are erased (i.e. all memories acquired from the time of your PC's last death). The spell ends when the spellcaster is raised or animated as undead."
+    },
+    {
+      "name": "Death Wish",
+      "circle": "4th Circle",
+      "slug": "death-wish",
+      "metadata": {
+        "material": "A scroll containing the trigger phrase and command",
+        "active": null,
+        "verbal": "30 words, and an explanation",
+        "uses": "2",
+        "caveats": "Compulsions"
+      },
+      "description": "This spell, when cast upon a dead body, implants a simple command into their mind. The spellcaster must give the target player the scroll after completing the verbal. The target must read the scroll at this time and may refer to it at any later time as needed. However, the scroll and the information it contains are OOC, and are not known to the PC in any way. When the target character is alive, and hears the trigger phrase, they must perform the command to the best of their ability. The spell ends when the target successfully completes the command, or is slain trying. The target may ignore any commands that violate the compulsions caveat. This spell will not work on a body without its soul. The spell Protect the Soul negates all effects of this spell."
+    },
+    {
+      "name": "Deep Pockets",
+      "circle": "2nd Circle",
+      "slug": "deep-pockets",
+      "metadata": {
+        "material": "A specific bag no larger than 6\" by 12\" by 3\"",
+        "active": null,
+        "verbal": null,
+        "uses": "3",
+        "caveats": "Precast"
+      },
+      "description": "Each casting allows spellcaster to deny any stealable items that are completely within the MC to the next three characters that search the spellcaster, while that bag is on the spellcaster's body. If the spellcaster is not carrying any stealable items outside of the bag, they may answer, \"Nothing.\" All other stealable items must be yielded to a search. Each additional learning of this spell allows the spellcaster an additional 6\" by 12\" by 3\" volume of bag, either as a separate bag, or a larger bag. However, the spellcaster can only have one usage cast at a time. Each search denial is used up on all of the volumes simultaneously. One Deep Pockets bag may never contain another. No matter how many Deep Pockets castings are combined it does not combine the amount of people that need to search it; it only increases the size of the bag."
+    },
+    {
+      "name": "Detect Magic",
+      "circle": "1st Circle",
+      "slug": "detect-magic",
+      "metadata": {
+        "material": null,
+        "active": null,
+        "verbal": "20 words",
+        "uses": "5"
+      },
+      "description": "This spell allows the spellcaster to take any one item (not a living or dead creature) to the EH or MM to ask whether casting Identify upon the object will yield any information the spellcaster cannot determine by looking at it, such as \"It's a stick,\" or \"It's a sword.\" It may be cast on a living or dead being to detect a magical item it carries, such as a spell focus or magic weapon. In this case, it will not tell what the item does, only that it is there and which item it is. If cast in this manner multiple times and there are multiple magical items, it will not repeat magic items until there are no new items to reveal."
+    },
+    {
+      "name": "Disease Weapon",
+      "circle": "3rd Circle",
+      "slug": "disease-weapon",
+      "metadata": {
+        "material": "A cloth",
+        "active": "Wipe the entire length of the weapon's striking surface 5 times",
+        "verbal": null,
+        "uses": "3",
+        "caveats": "Enchanted Items, OOC Calls, Weapon Calls"
+      },
+      "description": "This spell allows the spellcaster to temporarily enchant their weapon. After preparing it with the spell, it is considered a diseased weapon and the spellcaster must call \"Disease\" on the next attack with that weapon."
+    },
+    {
+      "name": "Disenchant",
+      "circle": "2nd Circle",
+      "slug": "disenchant",
+      "metadata": {
+        "material": null,
+        "active": "Touch the target item",
+        "verbal": "30 words",
+        "uses": "2"
+      },
+      "description": "This spell will remove enchantments from the target item. If the target item is a potion, panacea, or scroll, it will be rendered inert. If the target is a magic weapon it will no longer function as such until repaired by a Reforge spell. Only magic items specified by the EH or MM are immune to this spell. If the target is a Spell Sash, then the spell represented by the sash is ended. Other spells are not affected unless specified in their description."
+    },
+    {
+      "name": "Disrupt",
+      "circle": "4th Circle",
+      "slug": "disrupt",
+      "metadata": {
+        "material": null,
+        "active": "Clearly point at the target",
+        "verbal": "30 words, starting with \"I disrupt this (spell name) ...\"",
+        "uses": "5",
+        "caveats": "Suspension"
+      },
+      "description": "This spell will suspend any circle or chanting spell. It may only be cast upon a spell that is currently in use. Once the spellcaster completes the disruption, the target spell is suspended for five minutes and the spellcaster of the target spell loses the ability to cast the target spell for five minutes. If the target spell ends before the disruption is completed (the spellcaster stops chanting, the circle is broken, etc.), the spellcaster of that spell still loses the ability to cast that spell for five minutes. This spell only stops the current learning of the target spell. Therefore, if the spellcaster has taken Ward: Enchanted Beings twice, they temporarily lose the ability to cast one, but retain the ability to cast the other."
+    },
+    {
+      "name": "Disrupt Light",
+      "circle": "1st Circle",
+      "slug": "disrupt-light",
+      "metadata": {
+        "material": null,
+        "active": null,
+        "verbal": "20 words, which must clearly state the effect of the spell",
+        "uses": "5"
+      },
+      "description": "This spell cancels Light spells cast by other spellcasters. Once the Disrupt Light spellcaster is within sight and hearing of a Light spellcaster, they may loudly call out their verbal. Upon completion of the verbal, all other spellcasters within hearing range must put away their active Light spells. This action is OOC, and those affected must do so even if they hear the spell while dead. Spellcasters so affected cannot recast the Light spell for five minutes, after which time they may reuse the same chemical light sticks."
+    },
+    {
+      "name": "Divine Aid",
+      "circle": "4th Circle",
+      "slug": "divine-aid",
+      "metadata": {
+        "material": "A sacrifice may be required",
+        "active": "A quest may be required",
+        "verbal": "Speak to EH or MM",
+        "uses": "1"
+      },
+      "description": "This spell allows the spellcaster to send a request for aid to a higher power. The request cannot be specific and the higher power may send whatever aid they see fit. This spell comes with no guarantee that the EH or MM won't simply listen to the request and say \"No.\" This spell cannot create an effect that will last beyond the end of the event, other than for healing purposes. A spellcaster who uses drama and theatrics has a better chance of success."
+    },
+    {
+      "name": "Dream",
+      "circle": "2nd Circle",
+      "slug": "dream",
+      "metadata": {
+        "material": "Incense or candle",
+        "active": null,
+        "verbal": "20 words",
+        "uses": "1"
+      },
+      "description": "The spellcaster, after meditation with the MC, goes to sleep. In the morning, when the character wakes up, they may obtain a dream from the EH or MM. This dream will often (but not always) be based around the event plot, and it may be as detailed as the marshal wishes it to be. The spellcaster dreams very lucidly and may write down a permanent record of what they learned through the dream. This spell may be pre-registered, and the results of the Dream will be presented to the spellcaster at check-in."
+    },
+    {
+      "name": "Embrace Death",
+      "circle": "6th Circle",
+      "slug": "embrace-death",
+      "metadata": {
+        "material": "A specific container at least 4 inches in diameter, labeled with \"Event-Stealable\".",
+        "active": null,
+        "verbal": "40 words",
+        "uses": "1",
+        "caveats": "Enchanted Items, Precast, Regeneration, Basic Regeneration, Undead",
+        "the spellcaster may do whatever they want with the mc": "place it in a mundane pocket, hide it, give it to someone, etc.",
+        "the following effects are on the caster while the spell is active": "",
+        "the spellcaster is undead and is not affected by": "",
+        "the spells": ""
+      },
+      "description": "The container cannot be placed into Deep Pockets. - This spell allows the spellcaster to remove their soul from their body, giving them the ability to defy death. Nothing physical may be stored in the MC. When the spell is learned, the spellcaster must scribe in their spellbook a description of exactly what the MC looks like. You may change this description between events. Upon casting this spell, the spellcaster's soul enters the MC, which becomes an event-stealable item for the duration of the spell. However, the MC may not be put into Deep Pockets. The spellcaster may end this spell at any time by opening the MC, returning the soul to their body. Poisons Diseases Any effect that returns the spellcaster to life, unless otherwise specified Call the Soul Heal Limb Potion of Heal Limb The following spells and potions will reanimate the spellcaster (repairing any damaged limbs), without placing the spellcaster into someone else's control, and they will not gain any other power from these spells, even if they were active before Embrace Death: Animate Lesser Undead Animate Greater Undead Animate Undead General Raise Dead, if the character casting it is touching the MC. Combat Raise Dead, if the character casting it is touching the MC. Potion of Animate Lesser Undead Potion of Animate Greater Undead The spellcaster's limbs may be regenerated by remaining stationary for 30 seconds. By sitting without weapons in hand, in possession of the MC and incanting the VC, the spellcaster gains a basic regeneration that will reanimate the spellcaster, which triggers upon death. Once reanimated, the spellcaster must re-enchant themselves as described above to get another regeneration. If the spellcaster is killed with magic, the regeneration time will double to 240 seconds. Destruction of their body will prevent the spellcaster from regenerating, but they may still be returned to undeath by any other means described previously. If the MC is disenchanted (e.g. by use of the Disenchant spell), the spell is forcibly ended, and the spellcaster is slain and rendered soulless. If the spell is not ended before the end of the event, and if the spellcaster has the MC on them, then the spellcaster is returned to life, so they do not get a tick for ending the event soulless."
+    },
+    {
+      "name": "Enchant Armor",
+      "circle": "4th Circle",
+      "slug": "enchant-armor",
+      "metadata": {
+        "material": "A non-stealable token with the spellcaster's name and the words \"Enchant Armor\" on it",
+        "active": null,
+        "verbal": "30 words and an explanation",
+        "uses": "1",
+        "caveats": "Enchanted Items, Precast"
+      },
+      "description": "This spell creates a magical token that allows the spellcaster to continually repair armor worn by a specified character without expending other spells. When the spellcaster casts this spell, they give the token to the specified character, who must keep the token with them for the spell to remain in effect. Once this spell is cast, it may be forcefully ended by disenchanting the token. As long as the specified character has the token, and the spell has not ended, the spellcaster may cast Repair Armor as an unlimited effect on any armor worn by the specified character by performing that spell's AC on the targeted hit location. This spell does not require the spellcaster to currently have the spell Repair Armor or have any remaining castings of Repair Armor in order to use this effect."
+    },
+    {
+      "name": "Enchant Weapon",
+      "circle": "2nd Circle",
+      "slug": "enchant-weapon",
+      "metadata": {
+        "material": null,
+        "active": "Hold the target weapon with both hands",
+        "verbal": "10 words",
+        "uses": "5",
+        "caveats": "Enchanted Items, OOC Calls, Weapon Calls"
+      },
+      "description": "This spell gives the spellcaster the ability to temporarily enchant a melee weapon or bow. After preparing it with the spell, the weapon or bow user must call \"Magic\" or \"Silver\" the next 3 times they swing that weapon or the next 3 times they fire that bow. The spellcaster chooses which option, Magic or Silver, upon casting the spell, and must inform the recipient which option they are imbuing it with. These calls are expended and the casting is spent whether the user scores a successful hit or not, unlike other spells with the Weapon Calls caveat. Also unlike those other spells, anyone may wield the enchanted weapon to make the calls."
+    },
+    {
+      "name": "Enfeeble Being",
+      "circle": "3rd Circle",
+      "slug": "enfeeble-being",
+      "metadata": {
+        "material": null,
+        "active": null,
+        "verbal": "30 words, starting with \"I declare you mundane ...\"",
+        "uses": "2"
+      },
+      "description": "This spell allows the spellcaster to remove the special powers and abilities from a single NPC creature. To cast the spell, the spellcaster must get the creature's attention and begin the verbal. Once the spell is completed, the target may lose access to some or all of its abilities. This includes natural armor, spells, regeneration, etc. Because this is a relatively low-circle spell, it will probably have little or no effect on more powerful creatures, such as unique enemies or the proverbial \"Big Bad Guy,\" but it might work on things like a troll, a lesser demon, or a goblin shaman. This spell will never work on PCs. A spellcaster should choose their targets wisely."
+    },
+    {
+      "name": "Familiar",
+      "circle": "5th Circle",
+      "slug": "familiar",
+      "metadata": {
+        "material": "A specific stuffed or toy animal that must be at least 4\" tall, labeled with the spellcaster's name and the words \"Event-Stealable\"",
+        "active": null,
+        "verbal": null,
+        "uses": "1.",
+        "caveats": "Suspension"
+      },
+      "description": "The spellcaster may only have one in-play - The spellcaster has a familiar that grants them more spell potential, represented by a specific stuffed or toy animal. The familiar cannot be slain or disenchanted, but can be stolen. Any additional spells provided by the familiar require the presence of the familiar to cast it and maintain it, as if the familiar were a spell focus or additional MC. If the familiar is stolen or dropped, the spellcaster may not cast or maintain any of the extra spells. Each spell must meet the requirement for VC, MC, and ACs. Spells with lasting effects (protections, immunities, etc.) can only be cast upon the spellcaster. Spells with lasting effects are suspended while the familiar is not in the spellcaster's possession. Any blow that strikes the familiar must be taken as if the familiar is not there. The spellcaster has 5 points to spend on extra spells for every casting of this spell, up to 20 points total. +---------------------------------+-------------------+ | Benefit | Cost | +=================================+===================+ | Raise Dead | (1 pt.) - 1 use | +---------------------------------+-------------------+ | Disrupt | (1 pt.) - 1 use | +---------------------------------+-------------------+ | Call The Soul | (2 pts.) - 1 use | +---------------------------------+-------------------+ | Enfeeble | (2 pts.) - 1 use | | Being | | +---------------------------------+-------------------+ | Find The Path | (2 pts.) - 1 use | +---------------------------------+-------------------+ | Shapeshifting | (2 pts.) - 1 use | +---------------------------------+-------------------+ | Combat Raise | (3 pts.) - 2 uses | | Dead | | +---------------------------------+-------------------+ | Reforge: Restore | (4 pts.) - 1 use | | Enchantment | | +---------------------------------+-------------------+ When the spellcaster first learns this spell, they choose their familiar's abilities. These abilities are not alterable from event to event. The spellcaster must list every spell their familiar grants them in their spellbook as if they have learned the spell. If they learn the spell Familiar additional times, they may alter the abilities of their familiar upon completion of each learning. If the spellcaster unlearns a use of the spell Familiar, the familiar they have then becomes weaker and must be adjusted accordingly. A spellcaster may use the same prop for both an Animal Companion and a Familiar but all spells from both sources are considered suspended while the prop is not on their person."
+    },
+    {
+      "name": "Feign Death",
+      "circle": "3rd Circle",
+      "slug": "feign-death",
+      "metadata": {
+        "material": "A cloth",
+        "active": "Wipe cloth over face 5 times",
+        "verbal": null,
+        "uses": "Unlimited"
+      },
+      "description": "This spell allows the spellcaster to disguise themselves so as to appear dead. If someone asks them if they are dead they can legally answer \"Yes,\" and may lie down or sit with their sword or arm above their head as to appear dead (see rules on character death and soul loss). Feign Death ends once the spellcaster moves or speaks (except for addressing marshaling calls or OOC uncomfortable/unsafe situations). If a person moves them, thinking they are dead, the Feign Death does not end; only when they move themselves. If struck while using Feign Death, the spellcaster is still affected by the blow as normal."
+    },
+    {
+      "name": "Fighter's Intuition",
+      "circle": "1st Circle",
+      "slug": "fighters-intuition",
+      "metadata": {
+        "material": "Spell Sash",
+        "active": "place sash on fighter",
+        "verbal": null,
+        "uses": "3",
+        "caveats": "Enchanted Items, Spell Sash",
+        "the information can be anything": "weakness, methods of defeating, or even what the NPC likes to eat."
+      },
+      "description": "This spell must be cast on a non-spellcaster by placing the sash on the fighter and giving an explanation of how it works. This does not make the fighter an enchanted being. This fighter may now call out \"Fighter's Intuition\" once. When the fighter does this, they may or may not learn information about a monster they can see. It is up to the event staff to decide to provide this information or not. If the event staff does not provide any information about the monster, the use of the spell is not expended and the fighter may attempt to use it again."
+    },
+    {
+      "name": "Find the Path",
+      "circle": "4th Circle",
+      "slug": "find-the-path",
+      "metadata": {
+        "material": "Tracking paraphernalia, such as a map, divining rod, or an animal",
+        "active": null,
+        "verbal": null,
+        "uses": "2",
+        "caveats": "Spell Failure"
+      },
+      "description": "This spell allows the spellcaster to ask the EH or MM for a route to find, locate, or travel to a person, place or thing that they know by name. For instance, you can get a response from \"Where is the body of King Joe?\" but not from \"Take me to the person who stole my sword.\" The results of this spell will come as the MC guiding the caster to the target in a means the EH or MM deems appropriate. Be aware that the answer may not always be the safest or shortest path. This spell will fail if an answer cannot be determined because of PC action."
+    },
+    {
+      "name": "Foretell",
+      "circle": "3rd Circle",
+      "slug": "foretell",
+      "metadata": {
+        "material": null,
+        "active": "Talk to the EH or MM and make a prediction",
+        "verbal": null,
+        "uses": "2"
+      },
+      "description": "Allows the spellcaster to make a prediction of an event to come, e.g. \"Sir Thomas will slay a dragon with a silver sword.\" If the event foretold comes to pass the EH or MM may grant a boon to the spellcaster or anyone involved in the prediction. The nature and power of this boon is up to the EH or MM. The greater the foretold event or more specific the prediction, the more powerful the resulting boon should be. If the caster believes that their prediction has come true, they may check with the Magic Marshal."
+    },
+    {
+      "name": "Fortune Tell",
+      "circle": "3rd Circle",
+      "slug": "fortune-tell",
+      "metadata": {
+        "material": "Fortune-telling paraphernalia, such as runes or a tarot deck",
+        "active": null,
+        "verbal": null,
+        "uses": "2",
+        "caveats": "Spell Failure"
+      },
+      "description": "This spell allows the spellcaster to ask a question of the EH or MM, which will be answered in a symbolic manner. How much information (if any) and the form in which it is given is at the discretion of the EH or MM. No proper names may be used in either the question or the answer for this spell. For example, while a spellcaster cannot ask \"Who killed Sir Schlep?\" they can ask, \"Who killed this knight?\" and the answer can be \"Tarot Card: Jack of Wands\" but not \"Bad Bart.\" This spell can only be used to determine information that is plot-related. If the EH or MM does not know the answer because the question asked relates to PC actions, an answer will not be given, but the spell is still used. If the spell is cast and an answer cannot be given because of any of the above limitations, the casting is still used up."
+    },
+    {
+      "name": "Gentle Repose",
+      "circle": "1st Circle",
+      "slug": "gentle-repose",
+      "metadata": {
+        "material": null,
+        "active": "Touch the target dead body",
+        "verbal": "10 words, and an explanation",
+        "uses": "5"
+      },
+      "description": "This spell once cast will protect the target dead body temporarily as per the spell Protect the Soul. Once the target is returned to life by any means this spell effect ends. This spell may only be removed from the dead body via the Disenchant spell otherwise."
+    },
+    {
+      "name": "Ghost Blade",
+      "circle": "1st Circle",
+      "slug": "ghost-blade",
+      "metadata": {
+        "material": "A white ribbon with the words \"Ghost Blade\" on it",
+        "active": null,
+        "verbal": "20 words",
+        "uses": "2",
+        "caveats": "Enchanted Items"
+      },
+      "description": "This spell enchants a single weapon to no longer affect the casting of the spells Raise Dead or Regeneration or the breaking of Circle of Healing. Upon casting this spell, the spellcaster must tie the MC onto the enchanted weapon."
+    },
+    {
+      "name": "Group Healing",
+      "circle": "2nd Circle",
+      "slug": "group-healing",
+      "metadata": {
+        "material": "30' rope",
+        "active": "Touch the rope",
+        "verbal": "10 words",
+        "uses": "2",
+        "caveats": "Circles, Suspension",
+        "the group healing circle may be used to enhance the power of the following spells": "Combat Raise Dead, Cure Disease, Immunity to Poison, Heal Limb, and Raise Dead."
+      },
+      "description": "This spells allows the spellcaster to cast an enchanted circle. This circle allows certain spells cast into it to affect all the people within the circle. Multiple castings of Group Healing from the same or different spellcasters may be used at the same time, creating a bigger circle. To enchant the Group Healing circle, lay the rope(s) in a circle on the ground with the ends touching. Then all the characters to be cast upon need to be gathered into the circle. The spellcaster(s) must then recite the VC, which empowers the circle. The next spell from the accepted list cast into this circle by any spellcaster affects all within as if it had been cast on each individually. If the spell has any MC, only one is used."
+    },
+    {
+      "name": "Guidance",
+      "circle": "2nd Circle",
+      "slug": "guidance",
+      "metadata": {
+        "material": "Divining paraphernalia to indicate a yes/no answer",
+        "active": null,
+        "verbal": null,
+        "uses": "2",
+        "caveats": "Spell Failure"
+      },
+      "description": "This spell allows the spellcaster to ask the EH or MM a yes/no question. If the EH or MM does not know the answer because the question asked relates to PC actions, an answer may not be given. An answer will be given in the form of \"Yes\" or \"No\" by the EH or MM. If the spell is cast and an answer cannot be given because of any of the above limitations, the casting is still used up."
+    },
+    {
+      "name": "Heal Limb",
+      "circle": "2nd Circle",
+      "slug": "heal-limb",
+      "metadata": {
+        "material": null,
+        "active": "Spellcaster must be stationary, must touch the target limb",
+        "verbal": "20 words",
+        "uses": "Unlimited"
+      },
+      "description": "This spell allows the spellcaster to heal one damaged limb at a time. The spellcaster must recite the VC while touching the recipient's injured limb. The spellcaster cannot move their feet while casting this spell, although they may be moving their arms (e.g. parrying, so long as they don't step backwards)."
+    },
+    {
+      "name": "Heartiness",
+      "circle": "1st Circle",
+      "slug": "heartiness",
+      "metadata": {
+        "material": null,
+        "active": null,
+        "verbal": null,
+        "uses": "Unlimited, one at a time",
+        "caveats": "Precast"
+      },
+      "description": "Having this spell makes it harder to destroy the spellcaster's body. The next time the spellcaster's body is destroyed it will take 200 extra blows to successfully destroy their body. If struck for only 200 blows, instead of the full 400 blows, the spellcaster must inform the individual(s) destroying their body that \"The job is not yet done.\" A spellcaster can only be under the effect of one Heartiness spell at a time. A use is considered to be over whenever the spellcaster receives at least 200 body destroying blows, but is in effect until either their body is destroyed or they are raised."
+    },
+    {
+      "name": "Identify",
+      "circle": "1st Circle",
+      "slug": "identify",
+      "metadata": {
+        "material": null,
+        "active": null,
+        "verbal": "30 words",
+        "uses": "3"
+      },
+      "description": "This spell allows the spellcaster to take any one item (not a living/dead creature) to the EH or MM to ask what it is and expect an answer. This spell can also determine what species an unknown creature is. If the spellcaster can successfully reach visual inspection range, recite the verbal, and the creature is not hostile, it must state what species it is. The response is not IC speech by the creature, and it can answer while dead."
+    },
+    {
+      "name": "Immunity to Poison",
+      "circle": "1st Circle",
+      "slug": "immunity-to-poison",
+      "metadata": {
+        "material": null,
+        "active": "Touch the recipient",
+        "verbal": "10 words",
+        "uses": "3",
+        "caveats": "OOC Calls"
+      },
+      "description": "This spell makes the recipient immune to the next dose of poison that would have otherwise affected their PC during the event. When damaged by the next poison attack, whether ingested or delivered by a poisoned weapon, call \"Immunity to Poison!\" Only one Immunity to Poison is used at a time. The recipient must take any mundane damage from a poisoned weapon regardless of whether they are protected from the actual poison. More than one Immunity to Poison can be cast upon a recipient; the effect is stackable. This spell can also be cast as an antidote for any one poison that the recipient has been subjected to, but in this case it will not provide any further protection."
+    },
+    {
+      "name": "Implement",
+      "circle": "1st Circle",
+      "slug": "implement",
+      "metadata": {
+        "material": "Specific, safe, non-weapon Staff (between 4' and 6' long, inclusive), specific Wand (between 12\" and 18\" long, inclusive), specific Orb (at least 4\" in diameter), or specific Book (bound, minimum 1/2\" x 4\" x 7\", cannot be the spellcaster's spell-book)",
+        "active": null,
+        "verbal": null,
+        "uses": "Special"
+      },
+      "description": "The spellcaster is able to create a staff, wand, orb, or book (hereafter called \"implement\") that enhances their own spells. Each time the spellcaster learns this spell, they gain 1 point into a pool from which they may purchase special abilities from the choices below. A spellcaster may only have 5 points worth of implements per event. At the magic check-in of an event, the spellcaster may choose how the points in their pool are spent. Unless otherwise stated, abilities gained that augment or alter spells require that the spellcaster already knows that spell, otherwise there is no effect. In order to use the gained ability, the spellcaster must be holding the implement in one hand. The implement is a magical manifestation and cannot be broken. Any blow that strikes the implement must be taken as if the implement is not there. You can not actively parry with an implement. An implement may be disenchanted causing any effects or castings to be lost until the implement is restored. If disenchanted it takes 120 seconds of holding the implement with both hands and nothing else to restore. Gain one additional casting of one of the following spells for 1 point each: Find the Path, Fortune Tell, Guidance, Precognition, Skew Divination, Raise Dead, Deep Pockets, Enfeeble Being, Beckon Corpse, Disenchant, or Disrupt. Gain the following abilities for 1 point each: You may double the length of the rope for a single learning of a circle spell you know. This option may only be taken once for a given learning of a circle spell. The AC for Death Watch is changed to \"Spellcaster must kneel on one knee holding their Implement with both hands for 60 seconds before being killed.\" Additionally, the spell no longer ends when the spellcaster is raised. The spell Circle of Protection allows magic items carried by the spellcaster to pass through their Circles of Protection. Gain one additional casting of one of the following spells for 2 points each: Call the Soul, Group Healing, Resist Magic, Animate Greater Undead, or Soul Bane. Gain the following abilities for 2 points each: The uses for Speak become unlimited. Gain 1 point to spend on your familiar. This ability may not be taken more than once. When this augmentation is first used through Implement, you shall list an alternate build for the familiar. This alternate build can only be changed by learning or unlearning a use of Familiar. From now on, when you use your Familiar and it is augmented by Implement, it uses that new build. If you are using the augmented build, and you do not have your implement on you, you may not use your Familiar abilities. Gain one additional casting of one of the following spells for 3 points each: Vision or Séance. Gain the following abilities for 3 points each: Gain one use of Regeneration. You are not required to know the spell to use this ability. Gain one use of Regeneration. Upon completion, the spellcaster will be animated as a free-willed undead. You are not required to know the spell to use this ability. Gain one additional Magic Missile prop."
+    },
+    {
+      "name": "Intervention",
+      "circle": "6th Circle",
+      "slug": "intervention",
+      "metadata": {
+        "material": "A sacrifice may be required",
+        "active": "A quest may be required",
+        "verbal": "Speak to EH or MM",
+        "uses": "1",
+        "caveats": "Spell Failure",
+        "it is to be used to request favors such as": "\"Oh, please, great majestic god/Fire Spirit/Navel Lint, grant me a quest to search for the lost soul of my overlord, Sir Biff of Bonehead Ridge.\" This spell comes with no guarantee that the EH or MM won't simply listen to the request and say \"No.\" This spell cannot create an effect that will last beyond the end of the event, other than for healing purposes."
+      },
+      "description": "This spell allows the spellcaster to go to the EH or MM and ask a boon from whatever powers their magic. It only works if it is cast in the presence of the EH or MM. A spellcaster who uses drama and theatrics has a better chance of success, and simple, small requests are also more likely to be granted. Any requests that will unbalance the game will likely be either denied straight out, or assigned an unsolvable quest."
+    },
+    {
+      "name": "Light",
+      "circle": "1st Circle",
+      "slug": "light",
+      "metadata": {
+        "material": "Chemical light stick and dark bag or EH- or MM-approved electronic light with an on/off mechanism in any color except red",
+        "active": "Snap and shake the chemical light stick or turn on the electronic light",
+        "verbal": "3 syllables",
+        "uses": "Unlimited"
+      },
+      "description": "This spell creates light. The spellcaster may use as many Light props as desired. Electronic light sources must be checked in before use and may be pulled if they may be too bright or unsafe for the event. If using chemical light sticks, the spellcaster must also carry a bag large enough to hold all of the glow sticks they will use and thick enough to prevent any light from escaping. The bag is to be used if they are affected by a Disrupt Light spell. The spellcaster may not give a Light prop to anyone who is going to travel beyond easy speaking distance. It is possible for this spell to be disrupted. It is the spellcaster's responsibility to know what the Disrupt Light spell is, how to recognize it, and how to respond to it."
+    },
+    {
+      "name": "Lightning Bolt",
+      "circle": "6th Circle",
+      "slug": "lightning-bolt-spell",
+      "metadata": {
+        "material": "1 specific white boff arrow or javelin prop between 2'6\" and 3'6\" long",
+        "active": null,
+        "verbal": "\"Lightning Bolt\"",
+        "uses": "1 prop, unlimited use",
+        "caveats": "OOC Calls"
+      },
+      "description": "This spell allows the spellcaster to throw a stronger bolt of magic than Magic Missile. The MC for the spell must be made following the Weapon Construction rules for Lightning Bolts. The prop is a physical representation of the magic. After it comes to rest, it cannot be affected or moved by anyone other than the spellcaster, but it may still be seen or guarded by anybody. The prop counts as a hand-and-a-half weapon and must be thrown, not shot from a bow. The prop, including its shaft, strikes as a piercing magic blow to anything it makes contact with, until it comes to rest. Once cast, it cannot be cast again until the spellcaster recovers the prop. The prop is not considered a weapon and does not cause Spell Failure, except while the spell is active (i.e. from when the prop is thrown until it comes to rest)."
+    },
+    {
+      "name": "Magic Missile",
+      "circle": "4th Circle",
+      "slug": "magic-missile",
+      "metadata": {
+        "material": "3 specific beanbags or foam & duct tape blocks, about 3\" diameter",
+        "active": null,
+        "verbal": "\"Magic Missile\"",
+        "uses": "Unlimited, while spellcaster has MC handy",
+        "caveats": "OOC Calls"
+      },
+      "description": "When thrown, this spell strikes whatever it hits as if it were a magic sword. It will damage every location it hits, until it comes to rest. The prop is a physical representation of the magic. After it comes to rest, it cannot be affected or moved by anyone other than the spellcaster, but it may still be seen or guarded by anybody. A magic missile MC can be thrown with one hand. When a MC is being thrown, the other hand may contain only a single magic missile MC or a single-handed weapon or shield, and does not count toward dual-wielding for the purposes of weapon restrictions. The prop is not considered a weapon and does not cause Spell Failure except while the spell is active (i.e. from when the prop is thrown until it comes to rest). The spellcaster may only throw their spell props, and may not pick up those thrown by another spellcaster."
+    },
+    {
+      "name": "Manipulate Magic",
+      "circle": "2nd Circle",
+      "slug": "manipulate-magic",
+      "metadata": {
+        "material": null,
+        "active": "Speak to the EH or MM",
+        "verbal": null,
+        "uses": "1"
+      },
+      "description": "At the start of an event, or at a later point during the event, the spellcaster may choose a legal spell from their mastery at a circle below the slot that this spell has been learned in. They are able to cast as if it were in their spellbook for the remainder of the event or until a spell reset."
+    },
+    {
+      "name": "Masterwork Hammer",
+      "circle": "6th Circle",
+      "slug": "masterwork-hammer",
+      "metadata": {
+        "material": "A specific boff hammer within the spellcaster's weapon restriction with \"Masterwork Hammer\" and the spellcaster's name written on it",
+        "active": "Special",
+        "verbal": "50 words",
+        "uses": "1/special",
+        "caveats": "Enchanted Items, Precast"
+      },
+      "description": "This spell creates a Masterwork Hammer which the spellcaster may use to repair non-armor, non-magic items (bows, weapons, shields) in 30 seconds. The spellcaster may also use the hammer to repair all armor on a target player by using the hammer as the focus of the spell for 60 seconds. While using the hammer to make any type of repair, the spellcaster cannot move their feet and is encouraged to actively use the hammer to simulate repairing the target. If the hammer is broken or disenchanted, the spellcaster may repair it by holding the item in both hands for 120 seconds."
+    },
+    {
+      "name": "Mentor",
+      "circle": "1st Circle",
+      "slug": "mentor",
+      "metadata": {
+        "material": null,
+        "active": null,
+        "verbal": null,
+        "uses": "Unlimited"
+      },
+      "description": "Allows the spellcaster to teach a legal spell or alternative from their spell mastery list, otherwise following the normal rules for learning spells."
+    },
+    {
+      "name": "Merge",
+      "circle": "3rd Circle",
+      "slug": "merge",
+      "metadata": {
+        "material": null,
+        "active": null,
+        "verbal": "10 word chant, repeated.",
+        "uses": "3",
+        "caveats": "Chanting, OOC Calls, Suspension"
+      },
+      "description": "The verbal must be chanted loudly and clearly - This spell provides an immense amount of protection to the spellcaster, but also requires an immense amount of concentration. This spell only takes effect once the spellcaster has completed the VC once. While merged, the spellcaster is completely immune to all forms of damage, magical or otherwise, regardless of whether the material into which the spellcaster merges is vulnerable to any form of damage. It does not make the spellcaster invisible or undetectable. The spellcaster is capable of merging with trees, stone, or earth. To merge, the spellcaster must embrace or lie down on the object they are merging with. While merged, the spellcaster is \"stuck\" and cannot be dragged. The object the spellcaster merges with MUST be at least as massive as the spellcaster. The spellcaster must remain still, and they must be constantly chanting their verbal while merged. The spellcaster must chant loudly and clearly. If anything interrupts the spellcaster's concentration, the spell is broken. OOC explanations (such as combat calls) do not interrupt this spell. For example, if a PC chanting a Merge spell is hit by a weapon, they may call \"No effect\" without interrupting the spell. As soon as the spellcaster moves or stops chanting, the spell ends. The spellcaster may not merge for at least one slow 200 second count after regaining their proper form."
+    },
+    {
+      "name": "Mystic Forge",
+      "circle": "4th Circle",
+      "slug": "mystic-forge",
+      "metadata": {
+        "material": "10-foot rope",
+        "active": "Touch the rope",
+        "verbal": "25 words",
+        "uses": "2",
+        "caveats": "Circles, Suspension"
+      },
+      "description": "This spell allows the spellcaster to create a Mystic Forge. The spellcaster may name the circle with Enchant Weapon or Repair Item, chosen at the time of casting. The spellcaster does not need to have the named spell in their spellbook. Until the Mystic Forge is broken, the spellcaster need only stand in the circle, touch the target item, and recite the named spell's VC to cast the spell. This does not use up any castings of the named spell, and this can be done as many times as desired. No one but the spellcaster may use the Mystic Forge in this manner."
+    },
+    {
+      "name": "Pas",
+      "circle": "1st Circle",
+      "slug": "pas",
+      "metadata": {
+        "material": "Disposable food, coin, or some offering",
+        "active": "Offer the MC to the target",
+        "verbal": "\"Pas, friend\"",
+        "uses": "3",
+        "caveats": "Compulsions"
+      },
+      "description": "This spell creates an uneasy, temporary truce between the target and the PC. Prior to casting this spell, the spellcaster must offer something of value to the target. If the target accepts the offering, the spellcaster may immediately cast this spell by reciting the verbal component. When the spell is cast, the target is magically bound to not attack the spellcaster for 60 seconds, unless the target is attacked. If the target is attacked or the spellcaster is slain, this spell ends immediately. Protect the Soul will block the effects of this spell, as will Resist Magic. Some powerful creatures may not be affected by this spell."
+    },
+    {
+      "name": "Precognition",
+      "circle": "3rd Circle",
+      "slug": "precognition",
+      "metadata": {
+        "material": "Divining paraphernalia (such as a crystal ball or mirror)",
+        "active": null,
+        "verbal": null,
+        "uses": "3"
+      },
+      "description": "This spell allows the spellcaster to gain non-specified information about the plot from the EH or MM. How much information (if any) is at the discretion of the EH or MM."
+    },
+    {
+      "name": "Prophecy",
+      "circle": "6th Circle",
+      "slug": "prophecy",
+      "metadata": {
+        "material": null,
+        "active": "Ritual (Optional)",
+        "verbal": null,
+        "uses": "1"
+      },
+      "description": "This spell allows the spellcaster to ask the EH or MM a question pertaining to the plot of the event. The EH or MM will give the spellcaster as complete an answer as they are willing. The method of delivering this knowledge is at the EH's or MM's discretion. A spellcaster may use drama, theatrics, or sacrifice during the ritual to have a better chance of gaining information. After casting this spell, once every two hours the spellcaster may ask a follow up question to the EH or MM related to the initial question. The EH or MM may also choose to release additional information to the spellcaster at any time during the remainder of the event or until a spell reset."
+    },
+    {
+      "name": "Protect Item",
+      "circle": "1st Circle",
+      "slug": "protect-item",
+      "metadata": {
+        "material": "Ribbon tied onto the item protected.",
+        "active": null,
+        "verbal": "20 words",
+        "uses": "3",
+        "caveats": "Enchanted Items, OOC Calls"
+      },
+      "description": "Remove the ribbon soon after the spell is expended/used to protect the item - This spell allows a single non-armor item to be protected from the next attack that would normally damage it. For example, a protected sword struck by a boulder would not be destroyed, but the wielder would still suffer normal damage (e.g. death usually). The call for this spell is \"Protect Item.\" A particular item may only have one casting of Protect Item on it at a time. This spell does not protect against Disenchant."
+    },
+    {
+      "name": "Protect the Soul",
+      "circle": "2nd Circle",
+      "slug": "protect-the-soul",
+      "metadata": {
+        "material": "Spell Sash",
+        "active": null,
+        "verbal": "30 words and an explanation",
+        "uses": "1",
+        "caveats": "Enchanted Items, OOC Calls, Precast, Spell Sash"
+      },
+      "description": "This spell will protect the recipient from possession, spells under the compulsions caveat, and similar effects as determined by the EH or MM. When targeted by any spell or effect against which Protect the Soul immunizes your PC, you must call \"Protect the Soul!\" The spell will last until the sash is disenchanted or removed by the spellcaster. The spell will not function if the recipient is soulless or their soul is not within their body for any other reason."
+    },
+    {
+      "name": "Protection from Boulder",
+      "circle": "1st Circle",
+      "slug": "protection-from-boulder",
+      "metadata": {
+        "material": "Spell Sash",
+        "active": null,
+        "verbal": "20 words",
+        "uses": "2",
+        "caveats": "Enchanted Items, OOC Calls, Precast, Spell Sash"
+      },
+      "description": "The spellcaster is protected from the next \"boulder\" call that strikes them. This protection extends to all equipment they are carrying."
+    },
+    {
+      "name": "Protection from Missile",
+      "circle": "2nd Circle",
+      "slug": "protection-from-missile",
+      "metadata": {
+        "material": "Spell Sash",
+        "active": "Kneel with no weapons or shields in hands, or lie on back",
+        "verbal": "10 words",
+        "uses": "Unlimited, one at a time",
+        "caveats": "Enchanted Items, OOC Calls, Precast, Spell Sash"
+      },
+      "description": "The recipient of this spell is protected from the next hit they take from an arrow, javelin, or Magic Missile spell. It is necessary to call \"Protection\" when the spell activates. This spell will also protect equipment (such as armor) that would otherwise be affected by the missile. When the spell is cast, the recipient of the spell must be kneeling with no weapons in hand or be lying on their back. This spell may be cast on a recipient other than the spellcaster; to do so the spellcaster must have no weapons in hand and touch the recipient while the spell is being cast. More than one casting of this spell may be in effect on a single PC. If the spellcaster casts this spell on another PC, they may not re-cast the spell until the sash is returned to them."
+    },
+    {
+      "name": "Purity",
+      "circle": "3rd Circle",
+      "slug": "purity",
+      "metadata": {
+        "material": "Spell Sash which states the type of immunity granted",
+        "active": "Kneel with no weapons or shields in hands, or lie on back",
+        "verbal": "10 words",
+        "uses": "1, Self-only",
+        "caveats": "Enchanted Items, OOC Calls, Precast, Spell Sash"
+      },
+      "description": "Upon casting this spell, the spellcaster becomes completely immune to the effects of either poisons or diseases, chosen at the time of casting. The spell sash worn for any particular casting of this spell must state which immunity is granted by that casting. This means that a caster should have 2 separate sashes, or a sash that can be modified to show either effect."
+    },
+    {
+      "name": "Raise Dead",
+      "circle": "3rd Circle",
+      "slug": "raise-dead",
+      "metadata": {
+        "material": null,
+        "active": "Spellcaster must be within 2 feet of corpse and there can be no weapons within 10 feet of the spellcaster",
+        "verbal": "30 words",
+        "uses": "5",
+        "caveats": "Spell Failure"
+      },
+      "description": "This spell will raise a dead character, healing all of their injured limbs. There can be no weapons within 10 feet of the spellcaster at any point while casting this spell, or the spell will fail to work. For this purpose, a weapon is considered to be anything with a legal striking surface - swords and arrows are weapons, although bows are not. The player of the character being raised must be present to represent the corpse. No proxy can be used for the corpse."
+    },
+    {
+      "name": "Reanimate Limb",
+      "circle": "2nd Circle",
+      "slug": "reanimate-limb",
+      "metadata": {
+        "material": null,
+        "active": "Spellcaster must be stationary, must touch the target limb",
+        "verbal": "20 words",
+        "uses": "10"
+      },
+      "description": "This spell allows the spellcaster to animate damaged limbs on an undead target. When cast on an undead the spellcaster controls (this excludes themselves), this spell animates all damaged limbs, regardless of disease status. Otherwise, it only animates a single limb. The spellcaster must recite the VC while touching the recipient's damaged limb. The spellcaster cannot be moving around (e.g., running for their life) while casting this spell, although they may be moving their arms (e.g., parrying, so long as they do not step backwards)."
+    },
+    {
+      "name": "Reforge",
+      "circle": "5th Circle",
+      "slug": "reforge",
+      "metadata": {
+        "material": "Special",
+        "active": "Special",
+        "verbal": "30 words",
+        "uses": "2"
+      },
+      "description": "This spell allows the spellcaster to reforge an existing item, either improving it or repairing a magical item. The spellcaster may choose one of the following options when casting the spell. Each option has its own effects and requirements for casting the spell that must be met for the spell to be successfully cast. Silver Weapon This option will allow the spellcaster to create a permanent silver weapon. This option has an additional MC of the weapon's weight in silver coins (plain aluminum roofing tins, aluminum \"Coin of the Realm,\" etc.). The spellcaster must write the words \"Silver\" and \"Stealable\" on the blade of the weapon. The spellcaster must also write \"Silvered by\" and the spellcaster's name on the blade. All of the silver that is collected for the casting of this spell must be handed over to the EH or MM. All silver weapons are stealable, and the spellcaster must explain to anyone having a weapon made silver that it will be stealable, and will be considered property of the Realms, to be passed back and forth within the game as a searchable item, for as long as it is silver. A silver weapon will lose the quality of being silver if the writing on the blade fades to the point of no longer being readable or if the weapon is OOC or IC broken (such as by a boulder). Players may not protect the writing in any way and may not rewrite it. A silvered weapon broken IC (i.e. by any means other than the fading of the writing or the physical destruction of the prop) can be repaired by an expenditure of this spell, without having to provide the necessary silver. Repairing a weapon in this way does not allow you to remake the prop or rewrite the word \"Silver\" on the weapon. Silver Weapon will not allow you to silver an existing magic item. Reinforce Item This option will allow the spellcaster to make a normal weapon or shield unbreakable for the duration of the event. This option has an additional MC of a ribbon with the words \"Reinforce Item\" attached to the target item. The reinforced item will not be broken by attacks that would normally damage them (e.g. a boulder hitting it) as long as the spell remains active. If disenchanted through the spell Disenchant, the ribbon must be removed and the effect will end, but the weapon will otherwise remain intact. This option may not be used on a magic item, silver weapon, or bows. Restore Enchantment This spell allows the spellcaster to restore a currently-backed Realms Magic Item that has been broken or disenchanted to working order. This option may have an additional AC of a required quest. Potions and other spell components are not subject to repair. If an item has been physically broken or made unsafe, then the item must be physically repaired or replaced with a near duplicate of the item. Note that patching or minor repairs may be acceptable instead of a full prop replacement depending on the situation. Upon informing the EH or MM of their intention to cast this spell, the EH or MM may either present to the spellcaster a quest for the completion of this spell or simply declare the item \"repaired\" at their discretion. The spell is wasted if the quest fails or if permission for a repair is outright denied."
+    },
+    {
+      "name": "Regenerate the Soul",
+      "circle": "5th Circle",
+      "slug": "regenerate-the-soul",
+      "metadata": {
+        "material": null,
+        "active": null,
+        "verbal": "30 words",
+        "uses": "1",
+        "caveats": "Precast, Regeneration, Advanced Regeneration"
+      },
+      "description": "This spell grants the spellcaster an advanced regeneration which returns them to life from soullessness only. The spellcaster needs to be alive to cast this, and the regeneration will activate as soon as they are rendered soulless."
+    },
+    {
+      "name": "Regeneration",
+      "circle": "5th Circle",
+      "slug": "regeneration-spell",
+      "metadata": {
+        "material": null,
+        "active": "Spellcaster must sit on the ground with weapons a minimum of 10 feet away while casting this spell",
+        "verbal": "30 words",
+        "uses": "2",
+        "caveats": "Precast, Regeneration, Advanced Regeneration, Spell Failure"
+      },
+      "description": "This spell grants the spellcaster an advanced regeneration. If you have learned this spell twice, you may cast a Raise Dead to \"recharge\" one usage. These recharges cannot come from Circle of Healing, or any other raising effects other than the Raise Dead spell."
+    },
+    {
+      "name": "Repair Armor",
+      "circle": "1st Circle",
+      "slug": "repair-armor",
+      "metadata": {
+        "material": "Focus",
+        "active": "Hold armor and MC for 15 second count",
+        "verbal": null,
+        "uses": "5"
+      },
+      "description": "This spell will repair one hit location of armor. You are encouraged to simulate physically repairing the armor, such as tapping it with a focus, like a boff-hammer."
+    },
+    {
+      "name": "Repair Item",
+      "circle": "2nd Circle",
+      "slug": "repair-item",
+      "metadata": {
+        "material": null,
+        "active": "Touch the target item with both hands",
+        "verbal": "20 words",
+        "uses": "5",
+        "this spell repairs any one normal object": "a weapon, shield, bow or armor."
+      },
+      "description": "It cannot repair an item with a special property, such as a magic item. If used to repair armor that is being worn, a single casting will repair all pieces of armor that can be legally called by the wearer. The spellcaster may have nothing else in their hands while casting this spell."
+    },
+    {
+      "name": "Resist Death",
+      "circle": "6th Circle",
+      "slug": "resist-death",
+      "metadata": {
+        "material": "Spell Sash",
+        "active": "Kneel with no weapons or shields in hands, or lie on back",
+        "verbal": "30 words",
+        "uses": "Unlimited, one at a time",
+        "caveats": "Enchanted Items, OOC Calls, Precast, Spell Sash"
+      },
+      "description": "The spellcaster is protected from any damaging attack for 1 hit. The call for this is \"Resist Death.\" The spellcaster can choose when to utilize this effect."
+    },
+    {
+      "name": "Resist Magic",
+      "circle": "5th Circle",
+      "slug": "resist-magic",
+      "metadata": {
+        "material": null,
+        "active": null,
+        "verbal": "20 words",
+        "uses": "3",
+        "caveats": "OOC Calls, Precast"
+      },
+      "description": "This spell prepares a burst of null-magic within the spellcaster. If the spellcaster so desires, they may ignore a single magical effect. This ability can be used at any time, whether the spellcaster is dead or not. A spellcaster may not be under the effect of more than one Resist Magic spell at the same time. When targeted by a spell or effect against which Resist Magic protects them and the spellcaster wishes to ignore the effect, they call \"Resist Magic.\" For example: this spell will allow the spellcaster to treat a blow from a magic weapon as if it were a normal weapon blow, ignore the effect of any spell when it is first cast, ignore any potion when it's first applied, or cross the boundary of a Circle of Protection. The spell ends if the spell Disenchant is cast upon the spellcaster (although the spellcaster can use the Resist Magic to prevent the Disenchant from removing any other spells upon them). This spell cannot be cast on anyone other than the spellcaster and will only protect the spellcaster, not anything they have or possess."
+    },
+    {
+      "name": "Ritual of Banishment",
+      "circle": "6th Circle",
+      "slug": "ritual-of-banishment",
+      "metadata": {
+        "material": null,
+        "active": null,
+        "verbal": "40 words in \"burst\" form, otherwise special, see below",
+        "uses": "Special, see below"
+      },
+      "description": "This spell allows the spellcaster to use their knowledge of magic and the planes to shift a creature back to its home dimension or to scatter the magic of a being. The spellcaster has two ways of performing this ritual. If not given time to prepare a stronger ritual, the spellcaster may simply use this spell in a \"burst\" fashion. To do so, the spellcaster must get the attention of the creature and say the 40 words, which must begin with \"I banish you to the place from which you came...\" During the casting of the spell, the spellcaster is still open to any retaliation from the creature being banished. If given more time, the spellcaster can craft a more potent spell to send a creature to its home plane or strip the being of magics, potentially weakening it in the process. The player may do so by performing a ritual in front of the EH or MM. By reading the available magic and essences of the creature, this ritual may grant the spellcaster knowledge and further steps that can be taken to banish or weaken the creature, possibly leading to the final incantation. After the initial casting of the ritual, this spell is unleashed when the spellcaster uses the researched magic upon the creature. The prepared spell may only be good for one attempt, whether successful or not. Greater success in crafting this magic may be achieved through knowledge of the True Name of the creature, a physical or magical part of it or through a particularly potent ritual. Players who use drama and theatrics in their ritual are more likely to achieve better results. This spell will only function upon NPCs. Once this spell is attempted upon a creature, either in short or long formats, the spellcaster may not cast this spell again for an hour. You are encouraged to use a small timepiece to keep track of this time. Creatures that are shown to be too powerful from the preparation ritual do not weaken the spellcaster. You may not begin a preparation ritual on the same day as an uncompleted previous spell. Upon completion of a more in-depth ritual, the spellcaster must ask the EH or MM how long this spell is exhausted for, which may be the rest of the day. If you know this spell, you must inform the EH or MM at check-in."
+    },
+    {
+      "name": "Séance",
+      "circle": "4th Circle",
+      "slug": "seance",
+      "metadata": {
+        "material": "3-minute hourglass/timer",
+        "active": null,
+        "verbal": "20 words to start",
+        "uses": "1"
+      },
+      "description": "This spell allows the spellcaster to have an extended discussion with a spirit, either one of another world or of a soulless character. Upon informing the EH or MM of their intent to cast this spell, the spellcaster must start the ritual by flipping the hourglass. If the spirit does not arrive within the first three minutes, then the casting is not used. If the spirit arrives, let the glass run out and flip it again. The spellcaster and spirit may then speak freely until all the sands have fallen. If the spirit stays longer than three minutes, the spellcaster may continue to converse with it. Please note that this spell does not change any behavior on the part of the spirit, and it may choose not to talk. Whether a soulless character can answer is entirely up to the discretion of the EH or MM, who must be present for the ritual. This spell in no way grants the knowledge of the circumstances of a soulless character's death. If they are allowed to be contacted, the soulless PC can still refuse to answer, is not compelled to speak, can lie or tell the truth freely, and can end the séance at any time. A PC contacted with a séance must leave after three minutes."
+    },
+    {
+      "name": "Second Chance",
+      "circle": "6th Circle",
+      "slug": "second-chance",
+      "metadata": {
+        "material": null,
+        "active": "Speak to EH or MM",
+        "verbal": null,
+        "uses": "1"
+      },
+      "description": "This spell allows the spellcaster to recover once, even from the most grievous of wounds and situations. After the spell is cast, the spellcaster may activate the spell, which removes them from play. They must then go find the EH or MM. All stealable items in possession of the spellcaster must be left behind. This spell may be activated even if the spellcaster is dead or soulless. The EH or MM will then place them somewhere on site (location determined by the EH or MM). Upon being placed, the spellcaster is alive and unwounded."
+    },
+    {
+      "name": "Seed of Life",
+      "circle": "6th Circle",
+      "slug": "seed-of-life",
+      "metadata": {
+        "material": "2 specific tokens with the spellcaster's name and the words \"Seed of Life\" on it",
+        "active": null,
+        "verbal": "30 words and an explanation",
+        "uses": "Unlimited, while spellcaster has MC handy",
+        "caveats": "Regeneration, Basic Regeneration"
+      },
+      "description": "When cast on a dead body, this spell grants the recipient a basic regeneration. The spellcaster must hand the MC to the recipient when the spell is cast. If the recipient is soulless, they must alert the spellcaster after completion of the verbal that the spell has failed and hand the MC back to the spellcaster. Once the spell ends, the recipient needs to return the MC to the spellcaster as soon as reasonably possible. Other than this, the MC is neither stealable nor transferable in any way. If the recipient is rendered soulless, the spell ends. If the recipient is diseased, this spell will also cure them of their disease upon completion of the spell (although the regeneration time will still be doubled from the effects of the disease). This spell has no effect on animated undead. If the spell is cast with both tokens on the same recipient, then the recipient will regenerate in three-fourths the normal time (usually 90 seconds)."
+    },
+    {
+      "name": "Shapeshifting",
+      "circle": "4th Circle",
+      "slug": "shapeshifting",
+      "metadata": {
+        "material": "Makeup and/or mask and any disguise garb",
+        "active": "Change into disguise",
+        "verbal": null,
+        "uses": "2",
+        "caveats": "Enchanted Items"
+      },
+      "description": "This allows the spellcaster to shapeshift into a humanoid monster of about their height and size. This transformation takes as long to complete as it takes the player to change into the appropriate disguise outfit. The type and features of the monster are up to the player. Once the shapeshifting is complete, the player will respond to the spell Identify as the new type of monster. This spell will mimic a general monster type, and cannot accurately impersonate a named or unique monster, or appear to be another PC. You are free however, to attempt to convince your victims that you are more important than you actually are. The shapeshifted form confers no combat benefit or other NPC power, though they can appear to wear armor or carry larger weapons to complete the disguise. You may in no way signal to NPCs that you are NPCing. The shapeshifted form ends if you are killed or if any part of your disguise is disenchanted. In addition, at the door of the event, the player is allowed to ask the EH or MM to borrow an appropriate mask for the event in order to complete the illusion. There is no guarantee that they will be able to provide the materials, so you may wish to bring your own."
+    },
+    {
+      "name": "Skew Divination",
+      "circle": "3rd Circle",
+      "slug": "skew-divination",
+      "metadata": {
+        "material": "Scroll with a name of an item, person, group, place, or situation",
+        "active": "Give scroll to EH or MM",
+        "verbal": "30 words",
+        "uses": "2"
+      },
+      "description": "This spell will alter the next Guidance, Fortune Tell, Precognition, Find the Path, Foretell, Séance, Vision, or Prophecy spell cast about the target at that event, giving them misinformation. How much the spell is altered is up to the EH or MM. To cast this spell, the spellcaster must write the name of the target (item, person, group, place, or situation) on a scroll, sign the scroll, and give the scroll to the EH or MM."
+    },
+    {
+      "name": "Soul Bane",
+      "circle": "3rd Circle",
+      "slug": "soul-bane",
+      "metadata": {
+        "material": null,
+        "active": "Destroy a dead body.",
+        "verbal": null,
+        "uses": "1",
+        "caveats": "OOC Calls"
+      },
+      "description": "Following the final body destroying blow the spellcaster says \"Soul Bane.\" - This spell alters the next Call the Soul cast on the target by reversing which object is successful and unsuccessful. The spellcaster must inform the EH or MM whose body they destroyed and cast Soul Bane on as soon possible. The effect triggers the next time the target's soul is called. The spell ends after the first Call the Soul, whether it was successful or not. Only one Soul Bane can be active on a person at a time."
+    },
+    {
+      "name": "Speak",
+      "circle": "1st Circle",
+      "slug": "speak",
+      "metadata": {
+        "material": "A disposable offering for the creature to be spoken with",
+        "active": "The spellcaster approaches the creature with no weapons and with an offering in plain sight, and hands it to the creature",
+        "verbal": "\"Speak, friend... \"",
+        "uses": "2"
+      },
+      "description": "This spell allows the spellcaster to approach a creature and present an offering to them. If the offering is taken, the creature now has the ability to speak and understand the language of the spellcaster. This ability lasts until the creature is no longer in possession of the offering. No creature approached has to take the offering, nor is there any guarantee that the creature will speak to you."
+    },
+    {
+      "name": "Speak with Dead",
+      "circle": "1st Circle",
+      "slug": "speak-with-dead",
+      "metadata": {
+        "material": null,
+        "active": null,
+        "verbal": "An explanation, followed by a question",
+        "uses": "10",
+        "caveats": "Compulsions"
+      },
+      "description": "This spell allows the spellcaster to ask a corpse one \"yes or no\" question. The corpse may only answer \"Yes,\" \"No,\" or \"Abstain,\" and it may not lie. An abstention means that the spirit cannot or does not want to answer the question. Before asking the questions, the spellcaster must explain to the corpse's player what the acceptable responses are and that the character may not lie."
+    },
+    {
+      "name": "Strange Brew",
+      "circle": "1st Circle",
+      "slug": "strange-brew",
+      "metadata": {
+        "material": null,
+        "active": null,
+        "verbal": null,
+        "uses": "Special, see Alchemy",
+        "caveats": "OOC Calls, Potions"
+      },
+      "description": "You may create 3 additional types of potions listed below using Alchemy. Upon learning Strange Brew, you must record the potions you are choosing to learn, and their specific rules, in your spellbook: (1 Point) [Panacea]{#panacea}: Cures the target of all disease and poisons. If the target is not diseased or poisoned, this grants them immunity against the next time they would become diseased or poisoned. (1 Point) [Potion of Fortification]{#potion-of-fortification}: The recipient is protected from the next \"boulder\" call that strikes them. This protection extends to all equipment they are carrying. It is necessary to call \"Protection\" when the protection activates. (1 Point) [Potion of Heal Limb]{#potion-of-heal-limb}: Heals all damaged limbs of a living recipient (2 Points) [Potion of Animate Lesser Undead]{#potion-of-animate-lesser-undead}: Animates a corpse as per spell the Animate Lesser Undead. The spellcaster must also provide the necessary material requirements of that spell for when the potion is administered. Treat the person who applies this potion as the controller of the undead. (2 Points) [Poison Potion]{#poison-potion}: Create a death, sleep, or truth poison as per Create Poison. (3 Points) [Potion of Acid]{#potion-of-acid}: Deals 200 blows to a body, only usable on non-living objects. (3 Points) [Potion of Combat Raise Dead]{#potion-of-combat-raise-dead}: Raises a dead character, healing all of their injured limbs. (3 Points) [Potion of Disenchant]{#potion-of-disenchant}: Disenchants an enchanted or magic item, as per the spell, Disenchant. (4 Points) [Weapon Oil]{#weapon-oil}: Apply to a weapon for 60 seconds, and affix a ribbon to it with the alchemist's name, the potion sigil, and either Silver or Magic. The weapon swings Silver or Magic depending on which you chose until the end of the event. The effect of the weapon oil ends early if the weapon is broken or disenchanted. This has no effect on a weapon that is already Silvered or Magic. (5 Points) [Potion of Animate Greater Undead]{#potion-of-animate-greater-undead}: Animates a corpse as per the spell Animate Greater Undead. The spellcaster must also provide the necessary material requirements of that spell for when the potion is administered. Treat the person who applies this potion as the controller of the undead. (5 Points) [Potion of Soul Snare]{#potion-of-soul-snare}: Recipient's soul is returned to them as if the spell Call the Soul was successfully cast on them and their soul was called. The EH or MM must be present for this potion to be used. (5 Points) [Potion of Resistance]{#potion-of-resistance}: Gain one call of Resist Magic as per the spell. (7 points) [Potion of Séance]{#potion-of-seance}: The recipient can cast a usage of Séance as per the spell. If the Séance fails, the potion is used up. When this spell is learned at first circle, it does not grant any points to Alchemy. When learned in circles above first, it grants half the points that a learning of Alchemy in the equivalent circle would grant (e.g. 1 point when learned in 2nd circle, or 4 points if learned in 5th circle)."
+    },
+    {
+      "name": "Transformation",
+      "circle": "6th Circle",
+      "slug": "transformation",
+      "metadata": {
+        "material": "A specific pair of Transformation Claws",
+        "active": null,
+        "verbal": null,
+        "uses": "3",
+        "caveats": "Regeneration, Advanced Regeneration, OOC Calls, Precast, Suspension",
+        "armor options": "",
+        "natural armor": "1 point.",
+        "regenerating armor": "3 points.",
+        "weapon upgrades": "",
+        "poison weapons": "4 points.",
+        "armor-piercing weapons": "5 points.",
+        "miscellaneous abilities": "",
+        "limited regeneration": "2 points for one use.",
+        "death watch": "2 points.",
+        "immunity to poison": "1 point.",
+        "cure disease": "1 point.",
+        "heartiness": "1 point."
+      },
+      "description": "The spellcaster releases their inner nature. The effect is a transformation. Each individual spellcaster may have a different form, but that form is consistent to the spellcaster (i.e. Matt's altered form is different than Sally's, but Matt's altered form is always the same any time he shifts to it). The spell must be unlearned to alter that form. A complete description of the altered form must be in the spell description. The spellcaster must alter their appearance when in the transformed state. They must wear a different tabard, makeup, prosthetics, mask, or some other major signifying indicator that they are \"not quite right.\" Details must also be listed in the spellcaster's spellbook. Any potions or other spells with a lingering effect cast by the spellcaster are suspended when they transform. The suspension ends when the spellcaster reverts to their common form. All altered forms have the following advantages/disadvantages: Has the use of Florentine claws, 18\" maximum. Cannot use any other weapons. Claws must be of matched length. Cannot use or manipulate anything except with those claws (after all, they're the end of their hands). These claws do not break the spellcaster's weapon length restriction. The claws are physical representations for the spell, and are not really there until the spell is cast. They cannot be used by anyone other than the spellcaster, and they may only use them when under the effects of the spell. The claws must be clearly labeled with the phrase \"Transformation Claws\" and the spellcaster's name. The claws are not considered weapons for the purpose of Spell Failure. Furthermore, they are unbreakable and immune to the effect of a boulder, though the spellcaster is killed as normal if struck in the claws. Cannot cast any spells while in altered form, except those granted as part of the Transformation. The spellcaster may revert back to their common form, ending the spell at any time. A spellcaster has 7 points to construct their altered form: Grants light armor on all hit locations. Can only be purchased once. Cannot be used in conjunction with Regenerating Armor. Grants light armor on all hit locations, which can be regenerated. Can only be purchased once. To activate the regenerating effect, the spellcaster must kneel without attacking or blocking or lie on their back. Once so positioned, the spellcaster must remain still for 10 seconds per damaged hit location (repairing every hit location would take 70 seconds). If interrupted before all damaged hit locations are repaired, the effect fails with no armor points regenerated. Cannot be used in conjunction with Natural Armor. Both armor options may be repaired by casting Repair Item. 1 point for 2' claws. 2 points for 2'6\" claws. 3 points for 3' claws. 4 points for 3'6\" claws. The spellcaster may call \"Poison\" each time they swing their claws. The spellcaster may call \"Piercing\" each time they swing their claws. Axe, Hammer, or Mace claws: 1 point. The spellcaster may call \"Axe,\" \"Hammer,\" or \"Mace\" each time they swing their claws. The specific call must be chosen when the form is initially created. This option may only be taken once. The spellcaster is encouraged to make the claws reflect the nature of the call chosen. All of the spellcaster's limbs regenerate after 30 seconds, as an unlimited effect. Cannot be in combat while healing limbs in this fashion. The spellcaster has a single advanced regeneration. 1 point for each additional extra life beyond the first. As per the spell. May only cast on self, otherwise as per the spell. May only cast on self, otherwise as per the spell. As per the spell. Spells gained through transformation are as per the spell specified, including number of castings. Each time you transform, the uses reset. Spells gained this way may only be cast while transformed."
+    },
+    {
+      "name": "Transmutation Circle",
+      "circle": "6th Circle",
+      "slug": "transmutation-circle",
+      "metadata": {
+        "material": "10-foot rope",
+        "active": "Touch the rope while within the circle",
+        "verbal": "30 words",
+        "uses": "3",
+        "caveats": "Circles, Suspension"
+      },
+      "description": "This spell allows the spellcaster to create a Transmutation Circle that lasts until the caster leaves the circle. While in the circle, the spellcaster has access to 5 additional Alchemy points and is able to brew potions in 10 seconds rather than 60. Additionally, the spellcaster gains access to all potions in Strange Brew while in their Transmutation Circle, as long as they have the sigils and their specific rules in their spellbook."
+    },
+    {
+      "name": "Transmute Weapon",
+      "circle": "1st Circle",
+      "slug": "transmute-weapon",
+      "metadata": {
+        "material": null,
+        "active": "Hold the target weapon with 2 hands",
+        "verbal": "10 words",
+        "uses": "3",
+        "caveats": "Enchanted Items, OOC Calls, Weapon Calls"
+      },
+      "description": "This spell gives the spellcaster the ability to modify the shape and properties of a melee weapon or bow temporarily. After preparing it with the spell, the weapon or bow user must call one of the following weapon types the next 3 times the weapon is swung or the bow is fired: \"Axe\", \"Mace\", \"Hammer\", \"Spear\", or \"Dagger\". The spellcaster chooses an option upon casting the spell and must inform the recipient which option the weapon or bow has been transmuted to. These calls are expended and the casting is spent whether the user scores a successful hit or not, unlike other spells with the Weapon Calls caveat. Also unlike those other spells, anyone may wield the transmuted weapon or bow to make the calls."
+    },
+    {
+      "name": "Vision",
+      "circle": "5th Circle",
+      "slug": "vision",
+      "metadata": {
+        "material": null,
+        "active": null,
+        "verbal": null,
+        "uses": "1"
+      },
+      "description": "This spell allows the spellcaster to ask the EH or MM a question. The EH or MM will then reveal to the spellcaster as complete a description as they are willing to give, giving them a vision relating to it."
+    },
+    {
+      "name": "Ward: Enchanted Beings",
+      "circle": "5th Circle",
+      "slug": "ward-enchanted-beings",
+      "metadata": {
+        "material": "Focus",
+        "active": null,
+        "verbal": "20 words, repeated continuously, stating purpose of spell",
+        "uses": "Unlimited",
+        "caveats": "Chanting, Suspension, Wards"
+      },
+      "description": "This spell prevents Enchanted Beings from attacking the spellcaster while it is active."
+    },
+    {
+      "name": "Ward: Undead",
+      "circle": "2nd Circle",
+      "slug": "ward-undead",
+      "metadata": {
+        "material": "Focus",
+        "active": null,
+        "verbal": "10 words, repeated continuously, stating purpose of spell",
+        "uses": "Unlimited",
+        "caveats": "Chanting, Suspension, Wards"
+      },
+      "description": "This spell prevents Undead from attacking the spellcaster while it is active."
+    },
+    {
+      "name": "Zombie Walk",
+      "circle": "1st Circle",
+      "slug": "zombie-walk",
+      "metadata": {
+        "material": null,
+        "active": "Touch the target",
+        "verbal": "10 words, plus an explanation",
+        "uses": "Unlimited, 1 at a time",
+        "caveats": "Undead, Walking Dead"
+      },
+      "description": "This spell allows the spellcaster to animate a corpse, making it follow them for as long as they concentrate on the spell. If the spellcaster engages in combat either by attacking or by being struck, the spell ends and the corpse falls to the ground. In order to cast this spell, the spellcaster must recite the verbal and give the player of the corpse a brief explanation of what they should do, making sure they know when to fall down."
+    }
+  ]
+}
