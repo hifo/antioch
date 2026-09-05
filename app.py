@@ -2,21 +2,50 @@
 The main app.py for Antioch Spell API
 """
 
+import json
 import os
-from flask import Flask, jsonify, abort
-import spells_a_through_c
-import spells_d_through_f
-import spells_g_through_l
-import spells_m_through_p
-import spells_r_through_z
+import re
+from pathlib import Path
+
+from flask import Flask, abort, jsonify
+
 import caveats as caveats_module
 
 app = Flask(__name__)
 
 caveats = caveats_module.caveats
-# concatonates all spells from various files
-spells = spells_a_through_c.spells + spells_d_through_f.spells + \
-      spells_g_through_l.spells + spells_m_through_p.spells + spells_r_through_z.spells
+
+
+def load_spells_from_json():
+    """Load spells from the generated JSON file and normalize them for the API."""
+    data_dir = Path(__file__).resolve().parent
+    json_path = data_dir / 'spells.json'
+
+    if not json_path.exists():
+        return []
+
+    with json_path.open('r', encoding='utf-8') as json_file:
+        data = json.load(json_file)
+
+    normalized = []
+    for spell in data.get('spells', []):
+        item = dict(spell)
+        metadata = item.pop('metadata', {})
+        if isinstance(metadata, dict):
+            item.update(metadata)
+
+        circle_value = item.get('circle')
+        if isinstance(circle_value, str):
+            match = re.search(r'(\d+)', circle_value)
+            if match:
+                item['circle'] = int(match.group(1))
+
+        normalized.append(item)
+
+    return normalized
+
+
+spells = load_spells_from_json()
 
 @app.route('/')
 def get_root():
@@ -41,7 +70,7 @@ def get_spells_by_name(spell_name):
     """
     if spell_name == '':
         abort(404, 'No name provided')
-    spell = [spell for spell in spells if spell['name'] == spell_name]
+    spell = [spell for spell in spells if spell['name'].lower() == spell_name.lower()]
     if len(spell) == 0:
         abort(404, 'Invalid name')
     return jsonify({'spells': spell[0]})
@@ -52,7 +81,7 @@ def get_spell_by_circle(circle):
     Returns all spell names by circle
     circle - integer
     """
-    spell = [spell for spell in spells if spell['circle'] == circle]
+    spell = [spell for spell in spells if spell.get('circle') == circle]
     if len(spell) == 0:
         abort(404)
     return jsonify({'spells': [s['name'] for s in spell]})
@@ -79,7 +108,7 @@ def get_caveats_for_spell(spell_name):
     Looks up the caveats for a particular spell
     spell_name - string
     """
-    spell = [spell for spell in spells if spell['name'] == spell_name]
+    spell = [spell for spell in spells if spell['name'].lower() == spell_name.lower()]
     if len(spell) == 0:
         abort(404)
     return jsonify({'spells': spell[0]["caveats"]})
